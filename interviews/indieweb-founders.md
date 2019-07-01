@@ -200,7 +200,7 @@
 
 **Tantek:** Yeah, sites that become boring and people move on to what's interesting. I think Facebook really extended their lifespan by buying Instagram.
 
-**Manton:** So moving forward, how soon... Because I'm kind of patient and I want everybody to blog on their site immediately, like tomorrow, and for it too easy to use. But this stuff takes time. 
+**Manton:** So moving forward, how soon... Because I'm kind of impatient and I want everybody to blog on their site immediately, like tomorrow, and for it too easy to use. But this stuff takes time. 
 
 **Tantek:** Totally. 
 
