@@ -96,7 +96,7 @@
 
 **Aaron:** Yeah, that's part of it. A phone number just gets assigned to you. 
 
-**Manton:** And everybody kind of knows how phone numbers work, I guess. No one's surprise that their a 3-digit area code, and a 3-digit number, and a 4-digit... Whereas with domain names there's certain things (and IP addresses) that people are surprised by. 
+**Manton:** And everybody kind of knows how phone numbers work, I guess. No one's surprise that there's a 3-digit area code, and a 3-digit number, and a 4-digit... Whereas with domain names there's certain things (and IP addresses) that people are surprised by. 
 
 **Aaron:** Getting the domain is the first step. But then once you have it you have to know that you now need to set up DNS on it and point it at a hosting provider. And that's the part that's different from a phone number. Because once you have a phone number, it almost certainly came with a phone. You don't buy a phone number and then assign to a phone. You do that all as one step. 
 
