@@ -70,7 +70,7 @@ Micropub is a W3C recommendation and Micro.blog's native posting API. In an effo
 
 Unlike many REST-based APIs, Micropub uses a single URL endpoint with multiple parameters to specify actions such as editing or deleting an existing post. This makes it easier to "drop in" an implementation of Micropub into an existing web site or web application. This main endpoint is discovered by looking for a link tag in the blog's home page HTML:
 
-	<link rel="micropub" href="/micropub">
+	<link rel="micropub" href="https://micro.blog/micropub">
 
 Requests will need an authentication token. This is usually provided by IndieAuth, although Micro.blog also lets users generate new tokens for specific apps under their account. When you have a token, it's set in an `Authentication: Bearer` HTTP header.
 
@@ -155,7 +155,7 @@ To create a new post using HTML, clients can be explicitly about the format by a
 	 POST /micropub
 	 Authorization: Bearer 123456789
 	 Content-Type: application/json
-	 
+	
 	 {
 	   "type": [ "h-entry" ], 
 	   "properties": {
@@ -228,8 +228,8 @@ Using JSON is helpful for other types of applications too. IndieBookClub is a se
 	{
 	  "type": [ "h-entry" ],
 	  "properties": {
-	    "summary": ["Currently reading: The Tombs of Atuan by Ursula K. Le Guin, ISBN: 9780689845369"],
-	    "read-status": [ “reading” ],
+	    "summary": [ "Currently reading: The Tombs of Atuan by Ursula K. Le Guin, ISBN: 9780689845369" ],
+	    "read-status": [ "reading" ],
 	    "read-of": [
 	      {
 	        "type": [" h-cite" ],
@@ -418,7 +418,7 @@ Note that the `h-` is left off when passing a `post-type` filter parameter. Only
 There’s also an extension to Micropub for getting a list of uploaded files such as JPEGs or MP3s. It's similar to getting a list of posts, but sent to the media endpoint:
 
 	GET /micropub/media?q=source
-
+	
 	{
 	  "items": [
 	    {
