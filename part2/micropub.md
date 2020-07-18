@@ -2,9 +2,7 @@
 
 Micropub is one of several important IndieWeb building blocks, answering the question: what would a posting API look like if we started over, stripping away everything except the most basic requirement of sending post text to a server, and then build on top of that foundation when clients and servers in the real world need more?
 
-Many protocols attempt to be so comprehensive that they start off complicated and difficult to implement unless all at once. They over-specify everything that might be needed, even if there is no real-world example in use for it yet.
-
-Micropub isn't like that.
+Many protocols attempt to be so comprehensive that they start off complicated and difficult to implement unless all at once. They over-specify everything that might be needed, even if there is no real-world example in use for it yet. Micropub isn't like that.
 
 To understand how Micropub came to be — first created in 2015 and then formalized as a W3C recommendation in 2017 — we should rewind back in 2001 with the Blogger API and XML-RPC.
 
