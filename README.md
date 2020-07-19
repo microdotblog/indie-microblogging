@@ -16,7 +16,7 @@ _Looking back._
 
 * Penn Station
 * Pulled away from blogs
-* Competing platforms
+* Google Reader
 * App.net
 * Leaving Twitter
 * WordPress and Tumblr
@@ -42,7 +42,7 @@ _All the basics. Setting up WordPress and other blogging platforms._
 
 **Part 3: IndieWeb**
 
-_History of the IndieWeb. Microformats, Micropub, and Webmention.
+_History of the IndieWeb. Microformats, Micropub, and Webmention._
 
 * Permanence
 * Silos
