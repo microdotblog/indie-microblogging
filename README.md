@@ -55,7 +55,7 @@ _History of the IndieWeb. Microformats, Micropub, and Webmention._
 * Webmention
 * Bridgy
 * Blog archive format
-* Interview with Tantek Çelik and Aaron Parecki
+* [Interview with Tantek Çelik and Aaron Parecki](https://github.com/microdotblog/indie-microblogging/blob/master/interviews/indieweb-founders.md)
 
 **Part 4: Hypertext**
 
