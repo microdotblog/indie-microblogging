@@ -51,7 +51,7 @@ _History of the IndieWeb. Microformats, Micropub, and Webmention._
 * Microformats
 * Building blocks
 * [IndieAuth](https://github.com/microdotblog/indie-microblogging/blob/master/part3/indieauth.md)
-* [Micropub](https://github.com/microdotblog/indie-microblogging/blob/master/part2/micropub.md)
+* [Micropub](https://github.com/microdotblog/indie-microblogging/blob/master/part3/micropub.md)
 * [Webmention](https://github.com/microdotblog/indie-microblogging/blob/master/part3/webmention.md)
 * Bridgy
 * Blog archive format
