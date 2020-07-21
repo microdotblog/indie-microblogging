@@ -1,6 +1,6 @@
 # Table of Contents
 
-**Introduction**
+**[Introduction](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/index.md)**
 
 * What is microblogging?
 * Uses for a microblog
