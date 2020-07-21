@@ -2,8 +2,6 @@
 
 **Introduction**
 
-_How the web used to be, and how it should be again._
-
 * What is microblogging?
 * Uses for a microblog
 * Leaving Twitter
@@ -11,8 +9,6 @@ _How the web used to be, and how it should be again._
 * The way forward
 
 **Part 1: Rewind**
-
-_Looking back._
 
 * Penn Station
 * Pulled away from blogs
@@ -23,8 +19,6 @@ _Looking back._
 * Interview with Leah Culver
 
 **Part 2: Foundation**
-
-_All the basics. Setting up WordPress and other blogging platforms._
 
 * Domain names
 * Syndication
@@ -42,8 +36,6 @@ _All the basics. Setting up WordPress and other blogging platforms._
 
 **[Part 3: IndieWeb](https://github.com/microdotblog/indie-microblogging/blob/master/part3/index.md)**
 
-_History of the IndieWeb. Microformats, Micropub, and Webmention._
-
 * Permanence
 * Silos
 * Cross-posting
@@ -58,8 +50,6 @@ _History of the IndieWeb. Microformats, Micropub, and Webmention._
 * [Interview with Tantek Çelik and Aaron Parecki](https://github.com/microdotblog/indie-microblogging/blob/master/interviews/indieweb-founders.md)
 
 **Part 4: Hypertext**
-
-_Links and photos. The impact of design choices._
 
 * Photography
 * Influence
@@ -77,8 +67,6 @@ _Links and photos. The impact of design choices._
 
 **Part 5: Decentralization**
 
-_Improving the blogging user experience. The rise of Mastodon. Real-time notifications with WebSub._
-
 * Notifications
 * Mastodon
 * Pixelfed
@@ -90,8 +78,6 @@ _Improving the blogging user experience. The rise of Mastodon. Real-time notific
 * Interview
 
 **Part 6: Community**
-
-_Conversations across blogs. Curation and discovery._
 
 * Replies
 * Harassment
@@ -106,8 +92,6 @@ _Conversations across blogs. Curation and discovery._
 * Interview with Jean MacDonald
 
 **Conclusion**
-
-_What's next._
 
 * Breaking up Facebook
 * Regulation
