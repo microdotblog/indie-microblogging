@@ -88,7 +88,7 @@
 * Popularity contests
 * Micro Monday
 * Banning users
-* Interview with Jean MacDonald
+* [Interview with Jean MacDonald](https://github.com/microdotblog/indie-microblogging/blob/master/interviews/jean-macdonald.md)
 
 **Conclusion**
 
