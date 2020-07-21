@@ -40,7 +40,7 @@ _All the basics. Setting up WordPress and other blogging platforms._
 * Why indie microblogging
 * Interview with Brent Simmons
 
-**Part 3: IndieWeb**
+**[Part 3: IndieWeb](https://github.com/microdotblog/indie-microblogging/blob/master/part3/index.md)**
 
 _History of the IndieWeb. Microformats, Micropub, and Webmention._
 
@@ -50,9 +50,9 @@ _History of the IndieWeb. Microformats, Micropub, and Webmention._
 * Owning your content
 * Microformats
 * Building blocks
-* IndieAuth
+* [IndieAuth](https://github.com/microdotblog/indie-microblogging/blob/master/part3/indieauth.md)
 * [Micropub](https://github.com/microdotblog/indie-microblogging/blob/master/part2/micropub.md)
-* Webmention
+* [Webmention](https://github.com/microdotblog/indie-microblogging/blob/master/part3/webmention.md)
 * Bridgy
 * Blog archive format
 * [Interview with Tantek Çelik and Aaron Parecki](https://github.com/microdotblog/indie-microblogging/blob/master/interviews/indieweb-founders.md)
