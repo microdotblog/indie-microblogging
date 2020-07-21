@@ -83,7 +83,7 @@
 * Misinformation
 * Section 230
 * Unattended algorithms
-* Open gardens
+* [Open gardens](https://github.com/microdotblog/indie-microblogging/blob/master/part6/open-gardens.md)
 * Discovery
 * Popularity contests
 * Micro Monday
