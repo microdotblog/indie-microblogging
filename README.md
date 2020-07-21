@@ -2,7 +2,7 @@
 
 **[Introduction](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/index.md)**
 
-* What is microblogging?
+* [What is microblogging?](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/what-is-microblogging.md)
 * Uses for a microblog
 * Mission to movement
 * The way forward
