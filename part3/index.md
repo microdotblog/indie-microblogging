@@ -64,6 +64,6 @@ The formats and protocols that the IndieWeb community builds on are referred to 
 * **Micropub:** An API for posting to a web site.
 * **Webmention:** A protocol for notifying another web site that you've written about one of their posts.
 
-There are additional APIs, such as WebSub (a way to subscribe to a feed to avoid the delay of polling) and Microsub (for building reader apps). We'll discuss WebSub and Micropub more in Part 5, in the context of real-time notifications.
+There are additional APIs, such as WebSub (a way to subscribe to a feed to avoid the delay of polling) and Microsub (for building reader apps). We'll discuss WebSub and Microsub more in Part 5, in the context of decentralization and real-time notifications.
 
 The rest of this part will focus on Microformats, Micropub, and Webmention. But first, let’s go through why we blog — the value of owning our content and making it last.
