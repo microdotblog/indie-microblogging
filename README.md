@@ -4,7 +4,6 @@
 
 * What is microblogging?
 * Uses for a microblog
-* Leaving Twitter
 * Mission to movement
 * The way forward
 
