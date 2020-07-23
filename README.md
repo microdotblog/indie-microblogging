@@ -36,7 +36,7 @@
 **[Part 3: IndieWeb](https://github.com/microdotblog/indie-microblogging/blob/master/part3/index.md)**
 
 * Permanence
-* Silos
+* [Silos](https://github.com/microdotblog/indie-microblogging/blob/master/part3/silos.md)
 * Cross-posting
 * Owning your content
 * Microformats
