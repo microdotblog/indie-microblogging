@@ -24,7 +24,7 @@
 * RSS for microblogs
 * JSON Feed
 * Introducing Micro.blog
-* Starting with WordPress
+* [External blogs with WordPress](https://github.com/microdotblog/indie-microblogging/blob/master/part2/wordpress.md)
 * Alternative platforms
 * Micro.blog and feeds
 * Connecting to the web
