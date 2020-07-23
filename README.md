@@ -25,8 +25,8 @@
 * JSON Feed
 * Introducing Micro.blog
 * [External blogs with WordPress](https://github.com/microdotblog/indie-microblogging/blob/master/part2/wordpress.md)
-* Alternative platforms
-* Micro.blog and feeds
+* [Alternative platforms](https://github.com/microdotblog/indie-microblogging/blob/master/part2/alternative-platforms.md)
+* [Micro.blog and feeds](https://github.com/microdotblog/indie-microblogging/blob/master/part2/microblog-and-feeds.md)
 * Connecting to the web
 * Migration
 * Blogging workflow
