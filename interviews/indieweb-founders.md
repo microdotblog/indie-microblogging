@@ -1,3 +1,9 @@
+## Interview with Tantek Çelik and Aaron Parecki
+
+IndieWeb Summit is held once a year in Portland. For 2018, I attended and gave a keynote along with Micro.blog’s community manager Jean MacDonald about what we had learned trying to make Micro.blog as approachable as possible for mainstream audiences.
+
+After the conference, I sat down with Tantek Çelik and Aaron Parecki to talk about the early days of IndieWebCamp and where things might be headed.
+
 **Manton:** Take me back to 2011: the founding of IndieWebCamp. What did that feel like? How you all got together. How the first IndieWebCamp got started.
 
 **Tantek:** You weren't at the [Federated Social Web Summit](https://indieweb.org/Federated_Social_Web_Summit) in 2010, were you? Did you hear about it? Did it even cross your radar?
