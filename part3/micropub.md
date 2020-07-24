@@ -4,13 +4,15 @@ Micropub is one of several important IndieWeb building blocks, answering the que
 
 Many protocols attempt to be so comprehensive that they start off complicated and difficult to implement unless all at once. They over-specify everything that might be needed, even if there is no real-world example in use for it yet. Micropub isn't like that.
 
-To understand how Micropub came to be — first created in 2015 and then formalized as a W3C recommendation in 2017 — we should rewind back in 2001 with the Blogger API and XML-RPC.
+### Learning from XML-RPC and AtomPub 
+
+To understand how Micropub came to be — first created in 2015 and then formalized as a W3C recommendation in 2017 — we should rewind back in 2001 with the Blogger API, XML-RPC, and AtomPub.
 
 For my interview with Brent Simmons in Part 2, Brent talks about how easy XML-RPC was. And with good tools that understood XML, like the Frontier scripting environment that Brent worked in, it _was_ easy. All the complexity of serializing data structures into XML was hidden from you.
 
 But actually inspecting the data passed between client and servers revealed an admittedly ugly format that would stump most developers today as being needlessly verbose. Even worse, there was no way to build a script to process these requests on the server without bundling in an XML-RPC framework.
 
-Common data types such as integers, strings, and structs are encoded with rules outlined in the XML-RPC specification. To create a new post with the words "Hello world", the request might look like this:
+Common data types such as integers, strings, and structs are encoded with rules outlined in the XML-RPC specification. To create a new post with the words "Hello world", the XML-RPC request might look like this:
 
 	<?xml version="1.0"?>
 	<methodCall>
