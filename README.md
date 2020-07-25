@@ -76,10 +76,10 @@
 * Indie readers
 * Interview
 
-**Part 6: Community**
+**[Part 6: Community](https://github.com/microdotblog/indie-microblogging/blob/master/part6/index.md)**
 
-* Replies
-* Harassment
+* [Replies](https://github.com/microdotblog/indie-microblogging/blob/master/part6/replies.md)
+* [Harassment](https://github.com/microdotblog/indie-microblogging/blob/master/part6/harassment.md)
 * Misinformation
 * Section 230
 * Unattended algorithms
