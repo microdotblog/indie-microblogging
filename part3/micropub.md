@@ -4,9 +4,9 @@ Micropub is one of several important IndieWeb building blocks, answering the que
 
 Many protocols attempt to be so comprehensive that they start off complicated and difficult to implement unless all at once. They over-specify everything that might be needed, even if there is no real-world example in use for it yet. Micropub isn't like that.
 
-### Learning from XML-RPC and AtomPub 
+### Learning from XML-RPC and AtomPub
 
-To understand how Micropub came to be — first created in 2015 and then formalized as a W3C recommendation in 2017 — we should rewind back in 2001 with the Blogger API, XML-RPC, and AtomPub.
+To understand how Micropub came to be — first created in 2015 and then formalized as a W3C recommendation in 2017 — we should rewind back in 2001 with the Blogger API and XML-RPC.
 
 For my interview with Brent Simmons in Part 2, Brent talks about how easy XML-RPC was. And with good tools that understood XML, like the Frontier scripting environment that Brent worked in, it _was_ easy. All the complexity of serializing data structures into XML was hidden from you.
 
@@ -367,6 +367,14 @@ The response will look like:
 	  categories":  [ "Photos", "Testing", "Travel", "Writing" ]
 	}
 
+Some people use categories more like tags, so it’s possible that the results could contain hundreds of categories. A convention across the Micropub API is to use a `filter` parameter to return a subset of results, so we can use that here to search categories:
+
+	GET /micropub?q=category&filter=pho
+
+	{
+	  categories":  [ "Photos" ]
+	}
+
 ### Getting standalone pages and uploads
 
 IndieWeb blogs often have several post types, loosely following the Microformats standard:
@@ -382,26 +390,24 @@ This type can be inferred from the content on the page using the Post Type Disco
 
 There’s one type of content that isn’t well-covered in this list: standalone pages on your blog. These aren’t date-based like a blog post, but instead are usually pages that exist outside the reverse-chronological home page, like “About”, “Photos”, or “Archive”. They can be included in your blog’s navigation or sidebar.
 
-Microformats defines 2 approaches for creating post types that are not part of the standard: using a vendor prefix, or the “x-“ prefix for an experimental type. The convention for these standalone pages is a new experimental type “x-page”.
-
-We can pass this to Micropub when creating a new post. Instead of `h=entry` to create a new post, we’ll use `h=x-page`:
+Micro.blog uses a new type “page” for standalone pages. We can pass this to Micropub when creating a new post. Instead of `h=entry` to create a new post, we’ll use `h=page`:
 
 	POST /micropub
 	Authorization: Bearer 123456789
 	Content-Type: application/x-www-form-urlencoded
 	
-	h=x-page&name=New%20page&content=Hello
+	h=page&name=New%20page&content=Hello
 
 To query Micropub for just these standalone pages, use the `post-type` filter parameter:
 
-	GET /micropub?q=source&post-type=x-page
+	GET /micropub?q=source&post-type=page
 
 The response will look similar to getting a list of regular blog posts:
 
 	{
 	   "items": [
 	     { 
-	       "type": "h-x-page",
+	       "type": "h-page",
 	       "properties": {
 	         "uid": [ 12345 ],
 	         "name": [ "Title here" ],
@@ -423,14 +429,10 @@ There’s also an extension to Micropub for getting a list of uploaded files suc
 	  "items": [
 	    {
 	      "url": "https://www.manton.org/uploads/2020/058fa92305.png", 
-	      "width": 1200, 
-	      "height": 816,
 	      "published": "2020-05-27T14:14:09+00:00"
 	    }, 
 	    {
 	      "url": "https://www.manton.org/uploads/2020/7a57980ca2.jpg", 
-	      "width": 1800, 
-	      "height": 1800,
 	      "published": "2020-05-20T02:22:09+00:00"
 	    }
 	  ]
