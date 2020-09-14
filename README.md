@@ -27,7 +27,7 @@
 * [External blogs with WordPress](https://github.com/microdotblog/indie-microblogging/blob/master/part2/wordpress.md)
 * [Alternative platforms](https://github.com/microdotblog/indie-microblogging/blob/master/part2/alternative-platforms.md)
 * [Micro.blog and feeds](https://github.com/microdotblog/indie-microblogging/blob/master/part2/microblog-and-feeds.md)
-* Connecting to the web
+* Part of the web
 * Migration
 * Blogging workflow
 * Why indie microblogging
@@ -51,16 +51,14 @@
 **Part 4: Hypertext**
 
 * Photography
-* Influence
-* Reposts
+* Influence and reposts
 * UI impacts behavior
 * Square photos
 * Using HTML
 * Starting a new photo blog
 * Posting photos
 * Grid pages
-* Sunlit
-* Photo feeds
+* Sunlit and photo feeds
 * Linkblogging conventions
 * Interview
 
@@ -82,7 +80,7 @@
 * [Harassment](https://github.com/microdotblog/indie-microblogging/blob/master/part6/harassment.md)
 * Misinformation
 * Section 230
-* Unattended algorithms
+* [Unattended algorithms](https://github.com/microdotblog/indie-microblogging/blob/master/part6/unattended-algorithms.md)
 * [Open gardens](https://github.com/microdotblog/indie-microblogging/blob/master/part6/open-gardens.md)
 * Discovery
 * Popularity contests
