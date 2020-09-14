@@ -370,7 +370,7 @@ The response will look like:
 Some people use categories more like tags, so it’s possible that the results could contain hundreds of categories. A convention across the Micropub API is to use a `filter` parameter to return a subset of results, so we can use that here to search categories:
 
 	GET /micropub?q=category&filter=pho
-
+	
 	{
 	  categories":  [ "Photos" ]
 	}
@@ -390,24 +390,53 @@ This type can be inferred from the content on the page using the Post Type Disco
 
 There’s one type of content that isn’t well-covered in this list: standalone pages on your blog. These aren’t date-based like a blog post, but instead are usually pages that exist outside the reverse-chronological home page, like “About”, “Photos”, or “Archive”. They can be included in your blog’s navigation or sidebar.
 
-Micro.blog uses a new type “page” for standalone pages. We can pass this to Micropub when creating a new post. Instead of `h=entry` to create a new post, we’ll use `h=page`:
+Micro.blog uses a special “channel” for these standalone pages. When querying the Micropub config with `q=config`, the available channels will be returned:
+
+	{
+	  “channels”: [
+	    {
+	      “uid”: “default”,
+	      “name”: “Posts”
+	    },
+	    {
+	      “uid”: “pages”,
+	      “name”: “Pages”
+	    }
+	  ]
+	}
+
+We can pass the `uid` for “pages” in a new `mp-channel` parameter to Micropub when creating a new post:
 
 	POST /micropub
 	Authorization: Bearer 123456789
 	Content-Type: application/x-www-form-urlencoded
 	
-	h=page&name=New%20page&content=Hello
+	h=entry&content=Hello&mp-channel=pages
 
-To query Micropub for just these standalone pages, use the `post-type` filter parameter:
+When using the JSON version of Micropub, `mp-channel` is included along with other properties. It’s not a property itself; the `mp-` prefix is used for commands to Micropub:
 
-	GET /micropub?q=source&post-type=page
+	POST /micropub
+	Authorization: Bearer 123456789
+	Content-Type: application/json
+	
+	{
+	  "type": "h-entry",
+	  "properties" {
+	    "content": "Hello”,
+	    "mp-channel": “pages”
+	  }
+	}
+
+To query Micropub for just these standalone pages, use the `mp-channel` parameter:
+
+	GET /micropub?q=source&mp-channel=pages
 
 The response will look similar to getting a list of regular blog posts:
 
 	{
 	   "items": [
 	     { 
-	       "type": "h-page",
+	       "type": “h-entry”,
 	       "properties": {
 	         "uid": [ 12345 ],
 	         "name": [ "Title here" ],
@@ -418,8 +447,6 @@ The response will look similar to getting a list of regular blog posts:
 	     }
 	   ]
 	 }
-
-Note that the `h-` is left off when passing a `post-type` filter parameter. Only the value of the post type is needed.
 
 There’s also an extension to Micropub for getting a list of uploaded files such as JPEGs or MP3s. It's similar to getting a list of posts, but sent to the media endpoint:
 
