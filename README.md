@@ -5,7 +5,7 @@
 * [What is microblogging?](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/what-is-microblogging.md)
 * Uses for a microblog
 * Mission to movement
-* The way forward
+* [The way forward](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/the-way-forward.md)
 
 **Part 1: Rewind**
 
