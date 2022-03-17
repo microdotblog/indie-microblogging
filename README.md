@@ -2,12 +2,12 @@
 
 **[Introduction](/Introduction/Introduction.md)**
 
-* [What is microblogging?](/what-is-microblogging/)
-* [Uses for a microblog](/uses-for-microblog/)
-* [Mission to movement](/mission-to-movement/)
-* [The way forward](/the-way-forward/)
+* [What is microblogging?](/Introduction/What%20is%20microblogging.md)
+* [Uses for a microblog](/Introduction/Uses%20for%20a%20microblog.md)
+* [Mission to movement](/Introduction/Mission%20to%20movement.md)
+* [The way forward](/Introduction/The%20way%20forward.md)
 
-**[Part 1: Rewind](/rewind/)**
+**[Part 1: Rewind](/Rewind/Part%201-Rewind.md)**
 
 * [Penn Station](/penn-station/)
 * [Pulled away from blogs](/pulled-away-from/)
