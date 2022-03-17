@@ -1,97 +1,88 @@
 # Table of Contents
 
-**[Introduction](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/index.md)**
+**[Introduction](/Introduction/Introduction.md)**
 
-* [What is microblogging?](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/what-is-microblogging.md)
-* Uses for a microblog
-* Mission to movement
-* [The way forward](https://github.com/microdotblog/indie-microblogging/blob/master/introduction/the-way-forward.md)
+* [What is microblogging?](/what-is-microblogging/)
+* [Uses for a microblog](/uses-for-microblog/)
+* [Mission to movement](/mission-to-movement/)
+* [The way forward](/the-way-forward/)
 
-**Part 1: Rewind**
+**[Part 1: Rewind](/rewind/)**
 
-* Penn Station
-* Pulled away from blogs
-* Google Reader
-* App.net
-* Leaving Twitter
-* WordPress and Tumblr
-* Interview with Leah Culver
+* [Penn Station](/penn-station/)
+* [Pulled away from blogs](/pulled-away-from/)
+* [Leaving Twitter](/leaving-twitter/)
+* [App.net](/appnet/)
+* [WordPress and Tumblr](/wordpress-and-tumblr/)
+* [Interview with Leah Culver](/interview-leah-culver/)
+* [Toward decentralization](/toward-decentralization/)
 
-**Part 2: Foundation**
+**[Part 2: Foundation](/foundation/)**
 
-* Domain names
-* Syndication
-* RSS for microblogs
-* JSON Feed
-* Introducing Micro.blog
-* [External blogs with WordPress](https://github.com/microdotblog/indie-microblogging/blob/master/part2/wordpress.md)
-* [Alternative platforms](https://github.com/microdotblog/indie-microblogging/blob/master/part2/alternative-platforms.md)
-* [Micro.blog and feeds](https://github.com/microdotblog/indie-microblogging/blob/master/part2/microblog-and-feeds.md)
-* Part of the web
-* Migration
-* Blogging workflow
-* Why indie microblogging
-* Interview with Brent Simmons
+* [Domain names](/domain-names/)
+* [Syndication](/syndication/)
+* [RSS for microblogs](/rss-for-microblogs/)
+* [JSON Feed](/json-feed/)
+* [Introducing Micro.blog](/introducing-microblog/)
+* [External blogs with WordPress](/external-blogs-wordpress/)
+* [Alternative platforms](/alternative-platforms/)
+* [Micro.blog and feeds](/microblog-and-feeds/)
+* [Part of the web](/part-of-web/)
+* [Migration](/migration/)
+* [Blogging workflow](/blogging-workflow/)
+* [Why indie microblogging](/why-indie-microblogging/)
+* [Interview with Brent Simmons](/interview-brent-simmons/)
 
-**[Part 3: IndieWeb](https://github.com/microdotblog/indie-microblogging/blob/master/part3/index.md)**
+**[Part 3: IndieWeb](/indieweb/)**
 
-* Permanence
-* [Silos](https://github.com/microdotblog/indie-microblogging/blob/master/part3/silos.md)
-* Cross-posting
-* Owning your content
-* Microformats
-* Building blocks
-* [IndieAuth](https://github.com/microdotblog/indie-microblogging/blob/master/part3/indieauth.md)
-* [Micropub](https://github.com/microdotblog/indie-microblogging/blob/master/part3/micropub.md)
-* [Webmention](https://github.com/microdotblog/indie-microblogging/blob/master/part3/webmention.md)
-* Bridgy
-* Blog archive format
-* [Interview with Tantek Çelik and Aaron Parecki](https://github.com/microdotblog/indie-microblogging/blob/master/interviews/indieweb-founders.md)
+* [Permanence](/permanence/)
+* [Silos](/silos/)
+* [Cross-posting](/cross-posting/)
+* [Owning your content](/owning-your-content/)
+* [Microformats](/microformats/)
+* [Building blocks](/building-blocks/)
+* [IndieAuth](/indieauth/)
+* [Micropub](/micropub/)
+* [Webmention](/webmention/)
+* [Bridgy](/bridgy/)
+* [Blog archive format](/blog-archive-format/)
+* [Interview with Tantek Çelik and Aaron Parecki](/interview-tantek-aaron/)
 
-**Part 4: Hypertext**
+**[Part 4: Hypertext](/hypertext/)**
 
-* Photography
-* Influence and reposts
-* UI impacts behavior
-* Square photos
-* Using HTML
-* Starting a new photo blog
-* Posting photos
-* Grid pages
-* Sunlit and photo feeds
-* Linkblogging conventions
-* Interview
+* [Photography](/photography/)
+* [Influence and reposts](/influence-and-reposts/)
+* [UI impacts behavior](/ui-impacts-behavior/)
+* [Using HTML](/using-html/)
+* [Starting a new photo blog](/starting-photo-blog/)
+* [Sunlit and photo feeds](/sunlit-and-photo/)
 
-**Part 5: Decentralization**
+**[Part 5: Decentralization](/decentralization/)**
 
-* Notifications
-* Mastodon
-* Pixelfed
-* WebFinger
-* ActivityPub
-* Your blog
-* WebSub
-* Indie readers
-* Interview
+* [Notifications](/notifications/)
+* [Mastodon](/mastodon/)
+* [Pixelfed](/pixelfed/)
+* [ActivityPub](/activitypub/)
+* [Your blog](/your-blog/)
+* [WebSub](/websub/)
+* [Indie readers](/indie-readers/)
 
-**[Part 6: Community](https://github.com/microdotblog/indie-microblogging/blob/master/part6/index.md)**
+**[Part 6: Community](/community/)**
 
-* [Replies](https://github.com/microdotblog/indie-microblogging/blob/master/part6/replies.md)
-* [Harassment](https://github.com/microdotblog/indie-microblogging/blob/master/part6/harassment.md)
-* Misinformation
-* Section 230
-* [Unattended algorithms](https://github.com/microdotblog/indie-microblogging/blob/master/part6/unattended-algorithms.md)
-* [Open gardens](https://github.com/microdotblog/indie-microblogging/blob/master/part6/open-gardens.md)
-* Discovery
-* Popularity contests
-* Micro Monday
-* Banning users
-* [Interview with Jean MacDonald](https://github.com/microdotblog/indie-microblogging/blob/master/interviews/jean-macdonald.md)
+* [Replies](/replies/)
+* [Harassment](/harassment/)
+* [Misinformation](/misinformation/)
+* [Section 230](/section-230/)
+* [Unattended algorithms](/unattended-algorithms/)
+* [Open gardens](/open-gardens/)
+* [Discovery](/discovery/)
+* [Popularity contests](/popularity-contests/)
+* [Banning users](/banning-users/)
+* [Interview with Jean MacDonald](/interview-jean-macdonald/)
 
-**Conclusion**
+**[Conclusion](/conclusion/)**
 
-* Breaking up Facebook
-* Regulation
-* The way out
-* Sticking to the mission statement
-* Special thanks
+* [Breaking up Facebook](/breaking-up-facebook/)
+* [The way out](/the-way-out/)
+* [Sticking to the mission statement](/sticking-to-mission/)
+* [Special thanks](/special-thanks/)
