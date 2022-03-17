@@ -48,7 +48,7 @@
 * [Blog archive format](/Part%203/Blog%20archive%20format.md)
 * [Interview with Tantek Çelik and Aaron Parecki](/Part%203/Interview%20with%20Tantek%20Çelik%20and20Aaron20Parecki.md)
 
-**[Part 4: Hypertext](/Part%204/Part%204-%20Hhypertext.md)**
+**[Part 4: Hypertext](/Part%204/Part%204-%20Hypertext.md)**
 
 * [Photography](/Part%204/Photography.md)
 * [Influence and reposts](/Part%204/Influence%20and%20reposts.md)
