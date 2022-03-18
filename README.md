@@ -13,7 +13,7 @@
 * [Pulled away from blogs](/Part%201/Pulled%20away%20from%20blogs.md)
 * [Leaving Twitter](/Part%201/Leaving%20Twitter.md)
 * [App.net](/Part%201/App.net.md)
-* [WordPress and Tumblr](/Part%201/Wordpress%20and%20Tumblr.md)
+* [WordPress and Tumblr](/Part%201/WordPress%20and%20Tumblr.md)
 * [Interview with Leah Culver](/Part%201/Interview%20with%20Leah%20Culver.md)
 * [Toward decentralization](/Part%201/Toward%20decentralization.md)
 
@@ -21,10 +21,10 @@
 
 * [Domain names](/Part%202/Domain%20names.md)
 * [Syndication](/Part%202/Syndication.md)
-* [RSS for microblogs](/Part%202/Rss%20for%20microblogs.md)
+* [RSS for microblogs](/Part%202/RSS%20for%20microblogs.md)
 * [JSON Feed](/Part%202/JSON%20Feed.md)
 * [Introducing Micro.blog](/Part%202/Introducing%20Micro.blog.md)
-* [External blogs with WordPress](/Part%202/External%20blogs%20with%20Wordpress.md)
+* [External blogs with WordPress](/Part%202/External%20blogs%20with%20WordPress.md)
 * [Alternative platforms](/Part%202/Alternative%20platforms.md)
 * [Micro.blog and feeds](/Part%202/Micro.blog%20and%20feeds.md)
 * [Part of the web](/Part%202/Part%20of%20the%20web.md)
@@ -46,7 +46,7 @@
 * [Webmention](/Part%203/Webmention.md)
 * [Bridgy](/Part%203/Bridgy.md)
 * [Blog archive format](/Part%203/Blog%20archive%20format.md)
-* [Interview with Tantek Çelik and Aaron Parecki](/Part%203/Interview%20with%20Tantek%20Çelik%20and20Aaron20Parecki.md)
+* [Interview with Tantek Çelik and Aaron Parecki](/Part%203/Interview%20with%20Tantek%20%C3%87elik%20and%20Aaron%20Parecki.md)
 
 **[Part 4: Hypertext](/Part%204/Part%204-%20Hypertext.md)**
 
