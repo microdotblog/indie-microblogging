@@ -24,7 +24,7 @@ You could add blog feeds to App.net for "automatic" posting to App.net, but fund
 
 There were minor differences to Twitter, such as a longer 256-character post length, but also deeper additions, such as annotation data, channels, and file storage. These API features enabled building new types of apps. Location check-in apps like Ohai by Steve Streza, which by using a common API could share data with other location-based apps, and chat apps like Whisper, which was spun off of the Riposte iOS client.
 
-Streza blogged about these benefits [in a post about Ohai 1.0 in 2003][4]:
+Streza blogged about these benefits [in a post about Ohai 1.0 in 2013][4]:
 
 > This means other developers could build apps that recognize your journal. So, if the developer of your favorite camera app adds support for Ohai journals, they could save those photos into your journal. Then, the next time you open Ohai, those photos are available. Other developers could build journaling apps for other platforms like Android, or even write competitive apps for iPhone.
 
