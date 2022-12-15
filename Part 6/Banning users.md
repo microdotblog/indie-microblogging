@@ -1,6 +1,6 @@
 ## Banning users
 
-_”In terms of sheer engagement, objectionable content is the most popular.” — [Why The IndieWeb?][1]_
+_"In terms of sheer engagement, objectionable content is the most popular.” — [Why The IndieWeb?][1]_
 
 As we approached the end of 2018, Micro.blog was still gaining traction. We were rolling out new features every week. We had the Micro Monday podcast. There was still plenty to do, but it felt like everything was falling into place.
 
@@ -50,7 +50,7 @@ I should be excited about this, but instead my first reaction was frustration. T
 
 > Finally, new technologies have emerged to make a decentralized approach more viable. Blockchain points to a series of decentralized solutions for open and durable hosting, governance, and even monetization. Much work to be done, but the fundamentals are there.
 
-Even with all the current excitement about the blockchain, for the web any technology with its roots in cryptocurrency may be a solution in search of a problem. Just as Microformats was a simpler approach to metadata compared to RDF and the Symantec web, more traditional web apis are more than capable of undergirding Thor evolution of the web instead of crypto.
+Even with all the current excitement about the blockchain, for the web any technology with its roots in cryptocurrency may be a solution in search of a problem. Just as Microformats was a simpler approach to metadata compared to RDF and the Semantic Web, more traditional web APIs are more than capable of undergirding the evolution of the web instead of crypto.
 
 Anything the blockchain touches will have new complexity and energy resource trade offs. As Mastodon founder [Eugen Rochko posted][8]:
 
@@ -80,11 +80,21 @@ Nathaniel Popper wrote [an article in The New York Times][12] about Jack Dorsey�
 
 > Mr. Dorsey is following in the steps of the many cryptocurrency advocates who have argued that the underlying technology could be used to record all the users and activity on a social network, and to agree on a single set of rules for the network, without having any single company in charge. He said, though, that it would most likely take “many years.”
 
-I hope Twitter looks seriously at existing standards, and less at new, unproven standards. We've come too far to start over.
+In the end, with the continued chaos of Elon Musk’s Twitter takeover, [Jack Dorsey wrote a longer post][13] outlining his thinking about moderation and new protocols. It built on his previous comments, but with seemingly more conviction that centralized moderation was not going to work, and that instead users should have in their hands new algorithms for shaping what content they want to see:
 
---
+> The biggest mistake I made was continuing to invest in building _tools for us to manage_ the public conversation, versus building _tools for the people_ using Twitter to easily manage it for themselves. This burdened the company with too much power, and opened us to significant outside pressure (such as advertising budgets). I generally think companies have become far too powerful, and that became completely clear to me with our suspension of Trump’s account.
 
-In 2018, Alex Jones and his conspiracy theory-fueled site Infowars finally ran against several platform’s rules around hate speech. [From The New York Times][13]:
+Project Blue Sky, the effort to develop a new social media protocol that Jack Dorsey had helped get off the ground, had also published a specification for the AT Protocol. It prioritized a decentralized approach, similar to Mastodon’s ActivityPub, but contrary to the earlier suggestions about using crypto, blockchain is not part of the AT Protocol. It did put significant thought into identity and account portability:
+
+> The DNS handle is a user-facing identifier — it should be shown in UIs and promoted as a way to find users. Applications resolve handles to DIDs and then use the DID as the stable canonical identifier.
+
+Using the `@example.com` DNS syntax matches Micro.blog’s own method to send an @-reply to other web sites. The AT Protocol then maps it to a more cryptic identifier — DID, or [Decentralized Identifier][14] — that the user does not need to see.
+
+And meanwhile, we still have existing IndieWeb standards. Like the AT Protocol, the IndieWeb has always prioritized domain names. If the AT Protocol takes off, there could be a shared philosophy between it and the IndieWeb about using domain names for identity.
+
+---- 
+
+In 2018, Alex Jones and his conspiracy theory-fueled site Infowars finally ran against several platform’s rules around hate speech. [From The New York Times][15]:
 
 > After weeks of criticism, YouTube, Facebook, Apple, and Spotify all acted to essentially erase many of his videos and posts from their services. In many cases, the companies are saying he violated their terms regarding hate speech and a number of other rules. Alex Jones today in his show dedicated nearly all four hours to what he called censorship of his platform.
 
@@ -96,19 +106,19 @@ Apple also removed the Infowars app from the App Store. While Jones can still ha
 
 No chapter on banning users is complete without revisiting the elephant in the room: Donald J. Trump. For years, Twitter and Facebook defended their decision to keep Trump on their platforms, but that certainty from leadership kept getting chipped away at. First flagging Trump’s posts as inaccurate. Then limiting their ability to be retweeted and spread.
 
-The reaction when Trump tweeted a journalists email address was typical of the baby steps to rein in Trump’s use of the platform to incite. [Twitter locked his][14] account until he removed tweet:
+The reaction when Trump tweeted a journalists email address was typical of the baby steps to rein in Trump’s use of the platform to incite. [Twitter locked his][16] account until he removed tweet:
 
 > A Twitter spokesperson tells me that President Trump’s account was locked after he shared the NY Post columnist’s email address, and that to unlock his account, he had to agree to delete that tweet.
 
-With the 2020 election, the momentum to de-platform Trump became too great to ignore. There was a tipping point where the threat of violence became inarguable. Attorney General Merrick Garland said in a [2021 announcement about countering domestic terrorism][15] that the justice department is focused on violence, not on ideology. “We do not prosecute people for their beliefs.”
+With the 2020 election, the momentum to de-platform Trump became too great to ignore. There was a tipping point where the threat of violence became inarguable. Attorney General Merrick Garland said in a [2021 announcement about countering domestic terrorism][17] that the justice department is focused on violence, not on ideology. “We do not prosecute people for their beliefs.”
 
 Social networks have a different role than the government. For hate speech that could amplify threats of violence, social networks do have a responsibility to stop online speech potentially bringing physical harm into the real world.
 
-Casey Newton captured this shift against Trump [in a post for his newsletter Platformer][16], written on January 6th, the day of the insurrection at the US Capitol. Casey had previously opposed Twitter de-platforming Trump, but he couldn’t defend that position any longer:
+Casey Newton captured this shift against Trump [in a post for his newsletter Platformer][18], written on January 6th, the day of the insurrection at the US Capitol. Casey had previously opposed Twitter de-platforming Trump, but he couldn’t defend that position any longer:
 
 > By inciting the violent occupation of the US Capitol, Trump has given up any legitimate claim to power. In 14 days, barring catastrophe, he will be out of office. The only question is how much damage he will do in the meantime — and we know, based on long experience, that his Twitter and Facebook accounts will be among his primary weapons.
 
-The next day, [Mark Zuckerberg announced][17] that the temporary block on Trump’s account would be extended indefinitely. Mark outlined why the insurrection was the clear turning point to take action because amplified political speech had spread to violence:
+The next day, [Mark Zuckerberg announced][19] that the temporary block on Trump’s account would be extended indefinitely. Mark outlined why the insurrection was the clear turning point to take action because amplified political speech had spread to violence:
 
 > Over the last several years, we have allowed President Trump to use our platform consistent with our own rules, at times removing content or labeling his posts when they violate our policies. We did this because we believe that the public has a right to the broadest possible access to political speech, even controversial speech. But the current context is now fundamentally different, involving use of our platform to incite violent insurrection against a democratically elected government.
 
@@ -116,13 +126,19 @@ The next day, [Mark Zuckerberg announced][17] that the temporary block on Trump�
 
 When the narrative flipped against Trump, the changes at the big platforms snowballed. Alex Jones’s ban from YouTube earlier was almost a trial run. Trump banned from Facebook, Instagram, and Twitter. The iOS app Parler banned from the App Store. Conservatives often talk of free speech, but no one is guaranteed amplification.
 
-Aza Raskin, co-founder of the Center for Humane Technology, [has spoken about][18] the difference between speech and reach. “We are not guaranteed the right to freedom of reach,” he said. Reach is amplification, usually at a higher level of the internet stack and not a foundational level preventing someone from speaking at all.
+Aza Raskin, co-founder of the Center for Humane Technology, [has spoken about][20] the difference between speech and reach. “We are not guaranteed the right to freedom of reach,” he said. Reach is amplification, usually at a higher level of the internet stack and not a foundational level preventing someone from speaking at all.
 
 We use lower-level services like Amazon Web Services and Linode as if they are indistinguishable from having our own servers at a data center now, so I still think they are probably the wrong part of the stack to ban companies unless laws are broken. But it would be less of a gray area if AWS wasn’t so huge.
 
 At the very least, it’s important to acknowledge that AWS and Twitter are completely different types of services. Twitter started taking moderation seriously way too late, and now it feels like the momentum has spilled over into every type of service, maybe too quickly, as no major platform wants to be the last one to ban Trump.
 
-About a week after the insurrection, Jack Dorsey used [a Twitter thread][19] to explore his thoughts about banning Trump. In the tweets he seems clearly hesitant to ban, and perhaps with a different CEO at Twitter the ban would’ve come earlier. He again mentions open standards and crypto as possible long-term solutions, but lays the blame with how Twitter has managed their platform today, irrespective of what might be possible later:
+Twitter and Facebook organized safety councils to guide their actions, attempting to have independent oversight especially when banning high-profile figures like Trump. When Elon Musk acquired Twitter, chaos unfolded, and the Trust and Safety Council was disbanded. [In a statement][21], the previous members of the council wrote:
+
+> Over recent weeks, we have been gravely concerned by Twitter leadership’s apparent disregard for the due process and investment of resources required for effective content moderation.
+
+This echoed the feeling among many Twitter users that Elon Musk was making things up as he went along, acting largely on impulse, without a coherent strategy.
+
+About a week after the insurrection, Jack Dorsey used [a Twitter thread][22] to explore his thoughts about banning Trump. In the tweets he seems clearly hesitant to ban, and perhaps with a different CEO at Twitter the ban would’ve come earlier. He again mentions open standards and crypto as possible long-term solutions, but lays the blame with how Twitter has managed their platform today, irrespective of what might be possible later:
 
 > having to ban an account has real and significant ramifications. While there are clear and obvious exceptions, I feel a ban is a failure of ours ultimately to promote healthy conversation.
 
@@ -140,10 +156,13 @@ He’s right, but only partly. It is a failure of the community. It does have ra
 [10]:	https://www.wired.com/story/jack-dorsey-help-you-create-own-twitter/
 [11]:	https://stratechery.com/2019/bluesky-the-twitter-protocol-tragedy-alternatives/
 [12]:	https://www.nytimes.com/2019/12/18/technology/facebook-twitter-bitcoin-blockchain.html
-[13]:	https://www.nytimes.com/2018/08/06/technology/infowars-alex-jones-apple-facebook-spotify.html
-[14]:	https://twitter.com/Olivianuzzi/status/1313509484296368130
-[15]:	https://www.justice.gov/opa/speech/attorney-general-merrick-b-garland-remarks-domestic-terrorism-policy-address
-[16]:	https://www.platformer.news/p/its-time-to-deplatform-trump
-[17]:	https://www.facebook.com/zuck/posts/10112681480907401
-[18]:	https://twitter.com/aza/status/1269106535185051648
-[19]:	https://twitter.com/jack/status/1349510769268850690
+[13]:	https://www.getrevue.co/profile/jackjack/issues/a-native-internet-protocol-for-social-media-1503112
+[14]:	https://www.w3.org/TR/did-core/
+[15]:	https://www.nytimes.com/2018/08/06/technology/infowars-alex-jones-apple-facebook-spotify.html
+[16]:	https://twitter.com/Olivianuzzi/status/1313509484296368130
+[17]:	https://www.justice.gov/opa/speech/attorney-general-merrick-b-garland-remarks-domestic-terrorism-policy-address
+[18]:	https://www.platformer.news/p/its-time-to-deplatform-trump
+[19]:	https://www.facebook.com/zuck/posts/10112681480907401
+[20]:	https://twitter.com/aza/status/1269106535185051648
+[21]:	https://cdt.org/insights/joint-statement-on-the-disbanding-of-the-twitter-trust-and-safety-council/
+[22]:	https://twitter.com/jack/status/1349510769268850690

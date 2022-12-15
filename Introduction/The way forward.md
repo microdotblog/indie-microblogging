@@ -10,7 +10,7 @@ Compatibility between new blog-focused platforms could eventually become bigger 
 
 It is daunting to create a new microblog platform — to compete with Twitter and Facebook, to go up against more established companies with better funding — and creating a new social network from scratch usually does not work. The huge platforms are [super-aggregators][3], ad-based with little cost to acquire content or scale, and difficult to compete with network effects.
 
-For years many developers have wanted an alternative but not been able to get mainstream traction. Developers and entrepreneurs with the best intentions, great talent, and a larger team than we have for Micro.blog.
+For years many developers have wanted an alternative but have not been able to get mainstream traction. Developers and entrepreneurs with the best intentions, great talent, and a larger team than we have for Micro.blog.
 
 So to flip the iceberg, we must start with a simpler goal: encourage more people to blog. We must play the long game, building deliberately so that the foundation will last for years.
 

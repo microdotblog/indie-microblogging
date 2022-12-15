@@ -1,5 +1,7 @@
 ## Using HTML
 
+_“HTML documents represent a media-independent description of interactive content. HTML documents might be rendered to a screen, or through a speech synthesizer, or on a braille display. To influence exactly how such rendering takes place, authors can use a styling language such as CSS.” — [HTML5 specification][1]_
+
 The most misunderstood part about Micro.blog is that it's primarily a Twitter replacement. It's not. It's a different view into the web, like a feed reader. The Micro.blog platform is the glue to make that possible. The platform is a byproduct of trying the reach the goal, not the goal itself.
 
 Indie microblog posts are just blog posts. They may have more limitations — no title, shorter text, and usually simpler formatting — but they still use HTML like any blog post.
@@ -13,11 +15,11 @@ Pulling a tweet from the Twitter API, you might get a response that looks like t
 	"text": "Hello world!\n\nHere's a link: https://micro.blog/",
 	"entities": {
 	  "urls": [
-	{
-	  "url": "https://t.co/KrFEuTQtGo",
-	  "expanded_url": "https://micro.blog/",
-	  "indices": [ 28, 47 ]
-	}
+	    {
+	      "url": "https://t.co/KrFEuTQtGo",
+	      "expanded_url": "https://micro.blog/",
+	      "indices": [ 28, 47 ]
+	    }
 	  ]
 	}
 
@@ -28,7 +30,7 @@ The same post on an indie microblog will use HTML:
 	<p>Hello world!</p>
 	<p>Here's <a href="https://micro.blog/">a link</a>.</p>
 
-Whether you're seeing the post on the web, reading it in a feed reader, or getting it from Micro.blog's JSON API, it will always look the same. Indie microblog posts are just parts of a web page.
+Whether you're seeing the post on the web, reading it in a feed reader, or getting it from Micro.blog's JSON API, it will always look the same. Indie microblog posts are just parts of a web page. They can be adapted for different client app UIs by styling with CSS.
 
 Photos on indie microblogs are `img` tags. Keeping it this simple means it will be compatible with any existing blog software.
 
@@ -71,7 +73,7 @@ And these attributes are allowed on certain elements:
 
 * **a**: `href`, `title`, `class`
 * **span**: `style`, `class`
-* **img**: `src`, `style`, `class`, `width`, `height`, `alt`
+* **img**: `src`, `style`, `class`, `width`, `height`, `alt`, `loading`
 * **audio**: `src`, `controls`
 * **video**: `src`, `controls`, `width`, `height`, `preload`, `poster`, `alt`, `playsinline`, `style`, `class`
 * **source**: src, type
@@ -86,7 +88,7 @@ There is one thing to watch out for when using HTML for links instead of always 
 
 ### Markdown
 
-Not everyone should have to learn HTML or even know what it is. [Markdown][1] is an alternative markup format that is easy to learn and popular enough that it has become a de-facto default for many text editors. But Markdown was created with HTML in mind, so by using Markdown we get consistent HTML output instead of custom markup for an individual platform.
+Not everyone should have to learn HTML or even know what it is. [Markdown][2] is an alternative markup format that is easy to learn and popular enough that it has become a de-facto default for many text editors. But Markdown was created with HTML in mind, so by using Markdown we get consistent HTML output instead of custom markup for an individual platform.
 
 While most of Markdown's syntax is allowed on Micro.blog in posts and replies, you should limit markup to simple formatting and links so that it reads well in microblog posts.
 
@@ -112,12 +114,17 @@ For stronger emphasis, surround the text with two asterisks. This will produce b
 
 ### Inline photos
 
-Photos in Markdown are where more attention is needed. Because Markdown syntax for referencing an image does not support width and height tags, it is best to use the `img` HTML tag directly.
+Photos in Markdown are where more attention is needed. Because Markdown syntax for referencing an image does not support width and height attributes, it is best to use the `img` HTML tag directly.
 
-When cross-posting from your blog to other services, Micro.blog checks the width and height to determine if it's a photo that should be included in the cross-posting. Some platforms use small images for emoji or tracking pixels. We don't want to include those when sending the post to other services.
+When cross-posting from your blog to other services, Micro.blog checks the width and height to determine if it's a photo that should be included in the cross-posting. Some platforms use small images for emoji or tracking pixels. We don't want to include those when sending the post to other services. If there is no width and height attributes, Micro.blog will try to quickly download the image to check its size.
 
 When writing longer blog posts with multiple photos in apps like Sunlit, the app is responsible for first uploading all the photos, then creating the full HTML for the post with references to the uploaded photos.
 
-[1]:	https://daringfireball.net/projects/markdown/
+---- 
+
+Using HTML helps decouple content from platforms. Twitter, Instagram, and Snapchat would love everyone to post content in those platforms’ format, because then native ads which are the same size as your own content can be inserted into the platform’s dynamic feed. Posting content as HTML to your own site lets the content be readable in a variety of services based on the open web, from pages at your own domain name, to feed readers or newsletters.
+
+[1]:	https://html.spec.whatwg.org/multipage/
+[2]:	https://daringfireball.net/projects/markdown/
 
 [image-1]:	https://book.micro.blog/uploads/2020/c6af49b770.png

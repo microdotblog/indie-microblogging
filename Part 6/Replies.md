@@ -1,6 +1,8 @@
 ## Replies
 
-Around the 10-year anniversary of Twitter's launch, [Faruk Ateş wrote a post][1] that gives a sense of the major changes Twitter had gone through, most of which were difficult to fully understand at the time. On the change with @-replies:
+_“As you may know, @replies were not originally part of Twitter. They were embraced by the community first, and then we built them into the system.” — [Evan Williams][1], 2008 post about Twitter formalizing replies_
+
+In 2016 around the 10-year anniversary of Twitter's launch, [Faruk Ateş wrote a post][2] that gives a sense of the major changes Twitter had gone through, most of which were difficult to fully understand at the time. On the change with @-replies:
 
 > The second thing is that when they started hiding @-replies to people you don’t follow, they stripped the user experience of a vital ingredient for civility: peer transparency. The tone of discourse changed much for the worse over time, following that new behavior of the timeline. Before the rollout, all your friends would see if you behaved like a jerk to someone; after the rollout that was no longer the case. It removed the natural consequences of bad behavior, thereby encouraging people to reap the benefits of such bad behavior much more frequently.
 
@@ -54,9 +56,32 @@ Replies on your blog also get a special HTML template that includes the blog or 
 
 This is common practice in the IndieWeb community.
 
+---- 
 
+You may want to link from your blog post to the conversation around that post on Micro.blog. When Micro.blog reads your feed, it creates a record for your post in the timeline. If you’re hosting on Micro.blog, you can install Sven Dahlstrand’s plug-in [Conversation on Micro.blog][3] to add a link automatically to your blog posts.
 
-[1]:	https://productmatters.design/the-ghosts-of-twitter-past-present-and-future-a02827120927
+If you’re hosting elsewhere or want more control, Conversation.js also includes the URL for your post on Micro.blog in JSON Feed’s `home_page_url` field.
+
+```json
+GET https://micro.blog/conversation.js?url=https://example.com/your-blog-post.html&format=jsonfeed
+```
+
+Response:
+
+```json
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Conversation",
+  "home_page_url": "https://micro.blog/manton/13029114",
+  ...
+}
+```
+
+You can use JavaScript or a server-side script to retrieve this JSON Feed and then use the URL in `home_page_url` for linking from your blog to the conversation on Micro.blog.
+
+[1]:	https://blog.twitter.com/en_us/a/2008/how-replies-work-on-twitter-and-how-they-might
+[2]:	https://productmatters.design/the-ghosts-of-twitter-past-present-and-future-a02827120927
+[3]:	https://github.com/svendahlstrand/plugin-conversation-on-mb
 
 [image-1]:	https://book.micro.blog/uploads/2020/85ccbd2d96.png
 [image-2]:	https://book.micro.blog/uploads/2020/d819d19e4a.png

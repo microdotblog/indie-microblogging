@@ -2,7 +2,7 @@
 
 _“The magician takes the ordinary something and makes it into something extraordinary. But you wouldn’t clap yet, because making something disappear isn’t enough. You have to bring it back.” — The Prestige_
 
-Micro.blog can import from WordPress, Medium, Tumblr, and Ghost. To upload a file from one of those platforms, go to Micro.blog on the web and click Posts → “…” → Import.
+Micro.blog can import from WordPress, Medium, Tumblr, Ghost, and Markdown files. To upload a file from one of those platforms, go to Micro.blog on the web and click Posts → “…” → Import.
 
 When importing, Micro.blog will create new blog posts from the posts in the import file. If there are any `img` references in the HTML for those posts, Micro.blog will also attempt to download those images and store them on Micro.blog. It will then update the HTML to use the new URL for the image on Micro.blog.
 
@@ -10,7 +10,7 @@ If the URLs for your previous blog posts are different than the URLs on Micro.bl
 
 If you're moving from a blog system not supported by Micro.blog, you may be able to automate moving the posts over. [Kahlil Lechelt has created a script][1] that will work with static-site generators such as Jekyll or Hugo by importing from a folder of Markdown files.
 
-### Mirroring back to WordPress
+**Mirroring back to WordPress**
 
 Some people prefer to use Micro.blog because it's easier to post to, but still want those microblog posts to go back to their main WordPress blog. The [Feed Importer plugin][2] for WordPress by Michael Lichwa will load your microblog's RSS feed, looking for new posts and copying them over to your WordPress blog.
 

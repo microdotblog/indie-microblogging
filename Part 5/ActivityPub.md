@@ -107,7 +107,7 @@ The JSON body in the request will look something like this:
 	  "actor": "https://manton.org/activitypub/manton"
 	}
 
-The “type” value comes from ActivityStreams 2.0. In addition to creating a post, there are verbs fr following users, liking a post, and other actions you’d expect in a social network like Mastodon.
+The “type” value comes from ActivityStreams 2.0. In addition to creating a post, there are verbs for following users, liking a post, and other actions you’d expect in a social network like Mastodon.
 
 ### Attachments
 
@@ -125,6 +125,10 @@ Micro.blog posts are just blog posts. That means they use HTML for linking and i
 		  "url": "https://micro.blog/photos/..."
 		}
 	]
+
+### Moving instances
+
+...
 
 ---- 
 

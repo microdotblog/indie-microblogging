@@ -1,5 +1,7 @@
 ## Sunlit and photo feeds
 
+_“To the complaint, ‘There are no people in these photographs,’ I respond, There are always two people: the photographer and the viewer.” — Ansel Adams_
+
 ![][image-1]
 
 One afternoon before the Çingleton conference in 2012, Jonathan Hays and I were taking photos around Montreal. There was a feeling at the time that group photo sharing in particular should be much better. As everyone in a group snapped pictures of their surroundings — of people, events, food, anything — that years later, you should be able to go back to that time, to see the best photos collected together.
@@ -16,15 +18,15 @@ That vision evolved over the years. When App.net faded away, Jon and I rebuilt S
 
 ![][image-2] ![][image-3]
 
-### Long posts in the timeline
+---- 
 
-Sunlit is separate from the official Micro.blog app because that lets it have a UI that makes sense for longer blog posts with multiple photos. If all of the functionality of Sunlit were added to Micro.blog, it would make the default Micro.blog photo posting experience much less approachable for new users.
+Sunlit is separate from the official Micro.blog app because that separation lets it have a UI that makes sense for longer blog posts with multiple photos. If all of the functionality of Sunlit were added to Micro.blog, it would make the default Micro.blog photo posting experience much less approachable for new users.
 
 When you a post a longer story with a title and multiple photos using Sunlit, it creates a full blog post, not a microblog post. Because the post has a title, Micro.blog uses that title in the timeline and links back to your post. It also attempts to include a few tiny photo thumbnails in the timeline to give a preview of the post:
 
 ![][image-4]
 
-### Photo feeds
+---- 
 
 Sunlit is powered by feeds. Micro.blog provides several feeds specifically for photos:
 

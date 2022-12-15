@@ -10,7 +10,7 @@ To expand beyond registered accounts, Micro.blog also lets users follow blogs an
 
 But the UI for Micro.blog is inspired by Twitter, not traditional feed readers. Instead of adding feed URLs to follow, Micro.blog is designed around adding "usernames" to follow.
 
-### Usernames on Micro.blog
+**Usernames on Micro.blog**
 
 Micro.blog has 3 distinct styles of usernames to make the platform more compatible with other services:
 
@@ -20,7 +20,7 @@ Micro.blog has 3 distinct styles of usernames to make the platform more compatib
 
 I'm `@manton` on Micro.blog, my blog is `manton.org`, and because Micro.blog-hosted blogs support the ActivityPub API that Mastodon uses, you can follow me from Mastodon by using `@manton@manton.org`.
 
-### Following domain names
+**Following domain names**
 
 These special domain name usernames is where I think we can bring more social network-like interactions to the full web.
 

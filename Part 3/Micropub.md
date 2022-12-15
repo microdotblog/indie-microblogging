@@ -1,5 +1,7 @@
 ## Micropub
 
+_“The technical folks in the blogging world have learned a lot of the past few years about RSS and the blogging APIs—about what works well and what doesn't. And, despite the efforts that have gone into certain directions, we feel it'd be unfortunate this early in the game to be married to a certain direction just because we started out that way when we didn't know as much.” — [Evan Williams][1], Blogger API post from 2003_
+
 Micropub is one of several important IndieWeb building blocks, answering the question: what would a posting API look like if we started over, stripping away everything except the most basic requirement of sending post text to a server, and then build on top of that foundation when clients and servers in the real world need more?
 
 Many protocols attempt to be so comprehensive that they start off complicated and difficult to implement unless all at once. They over-specify everything that might be needed, even if there is no real-world example in use for it yet. Micropub isn't like that.
@@ -43,13 +45,13 @@ Note that the username and password are passed in the clear. There was no separa
 
 Subsequent blogging platforms extended the Blogger API with their own features. Instead of `blogger.newPost`, Movable Type had their own `mt.newPost` with similar parameters, adding a title field. WordPress had `wordpress.newPost`, and still supports XML-RPC today.
 
-To try to unify some of these improvements in a vendor-neutral standard, Dave Winer proposed the [MetaWeblog API][1]. MetaWeblog switched to passing content as structs, which could more easily be extended with additional fields, and added an image upload API, `metaWeblog.newMediaObject`. Dave patterned the field names after RSS:
+To try to unify some of these improvements in a vendor-neutral standard, Dave Winer proposed the [MetaWeblog API][2]. MetaWeblog switched to passing content as structs, which could more easily be extended with additional fields, and added an image upload API, `metaWeblog.newMediaObject`. Dave patterned the field names after RSS:
 
-> The MetaWeblog API uses an XML-RPC struct to represent a weblog post. Rather than invent a new vocabulary for the metadata of a weblog post, we use the vocabulary for an [item][2] in RSS 2.0. So you can refer to a post's title, link and description; or its author, comments, enclosure, guid, etc using the already-familiar names given to those elements in RSS 2.0.
+> The MetaWeblog API uses an XML-RPC struct to represent a weblog post. Rather than invent a new vocabulary for the metadata of a weblog post, we use the vocabulary for an [item][3] in RSS 2.0. So you can refer to a post's title, link and description; or its author, comments, enclosure, guid, etc using the already-familiar names given to those elements in RSS 2.0.
 
 Dave wasn't the only one who hoped to bring consistency between feed formats and a blogging API. A couple of years later, AtomPub was created based on Atom feeds.
 
-Ben Trott of Six Apart, makers of Movable Type, [blogged at the time][3] about the benefits to basing an API on the Atom feed format, which back then was called Echo:
+Ben Trott of Six Apart, makers of Movable Type, [blogged at the time][4] about the benefits to basing an API on the Atom feed format, which back then was called Echo:
 
 > Benefits to developers: using the same data model and serialization for syndication, archiving, and editing simplifies the development of tools to work with (produce and consume) these formats, for obvious reasons: code written to produce an item in an Echo feed, for example, can also be used for producing data sent in an API request or packaged up for archiving.
 
@@ -103,7 +105,7 @@ The `h=entry` may look familiar from Microformats. Micropub follows Microformats
 | h-entry        | h=entry      |
 | p-name         | name=        |
 | e-content      | content=     |
-| dt-published      | published=     |
+| dt-published   | published=   |
 
 ### Uploading photos
 
@@ -469,6 +471,7 @@ The `q=source` query on the media endpoint also supports the same `limit` and `o
 
 Micropub continues to evolve through extensions, but already has everything you need for maintaining a blog. While not all Micropub servers support everything that Micro.blog does, all servers will support basic posting, making Micropub an ideal place to start when writing a new client or script, and a good place to build from with future extensions.
 
-[1]:	http://1998.xmlrpc.com/metaWeblogApi.html
-[2]:	https://cyber.harvard.edu/rss/rss.html#hrelementsOfLtitemgt
-[3]:	https://web.archive.org/web/20030707045207/http://www.sixapart.com/log/2003/06/why_we_need_ech.shtml
+[1]:	https://web.archive.org/web/20030815183345/https://www.blogger.com/developers/2003_07_01_archive.pyra
+[2]:	http://1998.xmlrpc.com/metaWeblogApi.html
+[3]:	https://cyber.harvard.edu/rss/rss.html#hrelementsOfLtitemgt
+[4]:	https://web.archive.org/web/20030707045207/http://www.sixapart.com/log/2003/06/why_we_need_ech.shtml

@@ -1,5 +1,7 @@
 # Part 2: Foundation
 
+_“I am very aware that the original concept must do something worthwhile creatively or all the hard work to follow will be wasted.” — Mary Blair_
+
 It was 2002 at the SXSW Interactive festival in Austin. I had registered my domain name manton.org a few years earlier, and used it for some project pages and even a [niche link blog on animation][1] as early as 1999, but I had never dedicated the whole site to a personal blog. What I saw at SXSW was the inspiration I needed to start blogging.
 
 My first post, in its entirety:

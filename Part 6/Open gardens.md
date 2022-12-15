@@ -1,14 +1,18 @@
 ## Open gardens
 
-_“The first step might be to say they must use our payment system for everything, including books (triggered by the newspapers and magazines). If they want to compare us to Android, let's force them to use our far superior payment system.” — Steve Jobs, [internal email][1]_
+_“There are never purely technological solutions to societal problems.” — Molly White, [Blockchain Solutionism][1]_
 
 In technology, the _walled garden_ is a platform where one vendor controls distribution. If you want to make an iPhone app, your only choice is for Apple to approve it and sell it in the App Store. If you want to send a tweet, your only choice is to register on Twitter's platform.
 
 Walled gardens like the App Store are user-friendly and developer-hostile. They take power away from independent publishers and put it in the hands of gatekeepers. The problem is exclusivity: there is only one gate, and those stuck outside are unable to distribute the same content. You can make Android apps, but not iPhone apps. Nothing exists outside the walls that closely resembles what is inside.
 
+Apple uses the gate of App Store review to collect a percentage of a developer’s revenue. [In an internal email][2], Steve Jobs wrote that Apple could force developers to use their in-app purchase system:
+
+> The first step might be to say they must use our payment system for everything, including books (triggered by the newspapers and magazines). If they want to compare us to Android, let's force them to use our far superior payment system.
+
 Twitter is also a walled garden. Like the App Store, it is a closed platform with proprietary formats and a limited API. The difference is that Twitter's garden is poorly curated and full of weeds. The walls are in such disrepair it's hard to even tell where they are.
 
-[Mike Monteiro emphasized this frustration in a post][2] about the daunting, insurmountable problems facing Twitter’s leadership team. He talked about meeting in person with Jack Dorsey:
+[Mike Monteiro emphasized this frustration in a post][3] about the daunting, insurmountable problems facing Twitter’s leadership team. He talked about meeting in person with Jack Dorsey:
 
 > We discussed Twitter’s role in the world stage. And I admired his vision, but feared his approach. Jack, and to an extent Twitter’s pet porg Biz Stone, have always believed that absolute free speech is the answer. They’re blind to the voices silenced by hate and intimidation. The voices that need to be protected. But anyone who’s ever tended a garden knows that for the good stuff to grow, you have to deal with the bad stuff. You can’t let the weeds choke the vegetables.
 
@@ -28,13 +32,13 @@ In my Kickstarter video for Micro.blog, I talked about this for social networkin
 
 The fundamental problem in walled gardens like the App Store and Twitter is that they are closed. If they open up, they could in fact double-down on curation. There would be no need to loosen their quality standards because there's an easy path to publishing without review by using the open web.
 
-I first wrote about this in 2014 in the context of [learning from Beats Music][3]. For Apple to deemphasize their algorithmic top 200 lists in the App Store they would need to focus on curation. Here's what Beats was doing:
+I first wrote about this in 2014 in the context of [learning from Beats Music][4]. For Apple to deemphasize their algorithmic top 200 lists in the App Store they would need to focus on curation. Here's what Beats was doing:
 
 > Instead, they have a bunch of people — musicians and writers who deeply care about music — curating playlists. The top 25 playlists in a genre are so buried in the app that I had to search them out just to write this blog post, because they seem to carry no more weight than any other playlist. Much more common are playlists like “our top 20 of 2013”. That’s not a best-selling list; it’s based on real people’s favorites.
 
 After Apple acquired Beats Music, they brought some of those curation lessons over to Apple Music, and later redesigned the App Store with more featured apps and stories. There is only so much they can do, because the foundation of a walled garden is difficult to change.
 
-[Seth Godin highlights][4] how the incentives to curate are not well-aligned with Apple's business:
+[Seth Godin highlights][5] how the incentives to curate are not well-aligned with Apple's business:
 
 > Apple gets some zing for a recommended podcast now and then, or for a heavily promoted record, but the same rule is generally true with them–98% of all their content is driven by the algorithm, not a human with something at stake. They don’t care which record you pay for, as long as you pay for something.
 
@@ -51,7 +55,8 @@ To summarize:
 
 This is only possible by embracing the open web. I believe it's an important part of the way forward for all great platforms.
 
-[1]:	https://www.justice.gov/atr/case-document/file/486656/download
-[2]:	https://medium.com/@monteiro/merry-last-christmas-jack-dorsey-59f82c06f02b
-[3]:	http://www.manton.org/2014/02/ending_the_app.html
-[4]:	https://seths.blog/2019/07/surrendering-curation-and-promotion/
+[1]:	https://www.youtube.com/watch?v=G0k_GjxuJDM
+[2]:	https://www.justice.gov/atr/case-document/file/486656/download
+[3]:	https://medium.com/@monteiro/merry-last-christmas-jack-dorsey-59f82c06f02b
+[4]:	http://www.manton.org/2014/02/ending_the_app.html
+[5]:	https://seths.blog/2019/07/surrendering-curation-and-promotion/

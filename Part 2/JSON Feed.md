@@ -1,6 +1,9 @@
 ## JSON Feed
 
-Twenty years after RSS was getting its start, [Brent Simmons blogged about][1] introducing a new format called JSON Feed. He started by pointing to Dave Winer's rules for new standards, that it's better to have fewer formats:
+_“I gave it a specification and a little web site. All the rest happened by itself.”_
+_— [Douglas Crockford][1] on documenting JSON_
+
+Twenty years after RSS was getting its start, [Brent Simmons blogged about][2] introducing a new format called JSON Feed. He started by pointing to Dave Winer's rules for new standards, that it's better to have fewer formats:
 
 > I agree completely — but I also believe that developers (particularly Mac and iOS developers, the group I know best) are so loath to work with XML that they won’t even consider building software that needs an XML parser. Which says to me that JSON Feed is needed for the survival of syndication.
 
@@ -89,6 +92,7 @@ In some of the photo feeds, Micro.blog again extends JSON Feed to provide more i
 
 Adopting JSON Feed everywhere in Micro.blog allows the platform to be compatible with many feed readers, and brings consistency across most of the API.
 
-[1]:	http://inessential.com/2017/05/17/json_feed
+[1]:	https://youtu.be/-C-JoyNuQJs
+[2]:	http://inessential.com/2017/05/17/json_feed
 
 [image-1]:	https://book.micro.blog/uploads/2020/4e6da441a3.png

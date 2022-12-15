@@ -2,7 +2,7 @@
 
 _"You choose the web you want." — [Brent Simmons][1]_
 
-Bare with me for a paragraph as I summarize a scene toward the end of the 3rd Harry Potter movie, The Prisoner of Azkaban. Harry and Hermione are down by the lake watching the Dementors suck the life out of Sirius and the other Harry Potter. Harry doesn't do anything, because he thinks his dad will come to save them. He doesn't act at first, because he thinks someone else will solve the problem they're in.
+Bear with me for a paragraph as I summarize a scene toward the end of the 3rd Harry Potter movie, The Prisoner of Azkaban. Harry and Hermione are down by the lake watching the Dementors suck the life out of Sirius and the other Harry Potter. Harry doesn't do anything, because he thinks his dad will come to save them. He doesn't act at first, because he thinks someone else will solve the problem they're in.
 
 Hermoine cuts through the uncertainty, saying:
 

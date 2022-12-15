@@ -32,12 +32,11 @@ In contrast, significant parts of Facebook and Twitter seem to run unattended. [
 
 After the film The Social Dilemma came out, [Facebook published a paper][7] trying to counter it:
 
-> Facebook uses algorithms to improve the experience for people using  
-> our apps—just like any dating app, Amazon, Uber, and countless other consumer-facing apps that people interact with every day. That also includes Netflix, which uses an algorithm to determine who it thinks should watch ‘The Social Dilemma’ film, and then recommends it to them. This happens with every piece of content that appears on the service. 
+> Facebook uses algorithms to improve the experience for people using our apps — just like any dating app, Amazon, Uber, and countless other consumer-facing apps that people interact with every day. That also includes Netflix, which uses an algorithm to determine who it thinks should watch ‘The Social Dilemma’ film, and then recommends it to them. This happens with every piece of content that appears on the service. 
 
 But Netflix is a highly-curated service where every film has been approved or funded. The Netflix algorithm can’t accidentally promote the type of terrible, dangerous content that sometimes surfaces on Facebook.
 
-The combination of massive amounts of user-generated content on Facebook, an overwhelmed, outsourced content moderation staff — Facebook’s scale makes it unlike Netflix or any other smaller, curated service. And Facebook’s algorithm naturally ties to give you more of the same instead, leading you deeper into your filter bubble, because broadening your interests to more diverse content might turn you away.
+The combination of massive amounts of user-generated content on Facebook, an overwhelmed, outsourced content moderation staff — Facebook’s scale makes it unlike Netflix or any other smaller, curated service. And Facebook’s algorithm naturally tries to give you more of the same instead, leading you deeper into your filter bubble, because broadening your interests to more diverse content might turn you away.
 
 There was more pushback against Facebook after they refused to remove an edited video of Nancy Pelosi in 2019, choosing instead to try to educate users that the video was fake. Monika Bickert, Facebook's vice president of global policy management, [went on CNN][8] to defend their decision. She described how Facebook works with fact-checking organizations to independently confirm whether something is accurate:
 

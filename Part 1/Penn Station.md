@@ -32,7 +32,7 @@ And [in a response to Marco on MacStories][6], Federico Viticci wrote about the 
 
 While the open web still exists, we dropped the ball protecting and strengthening it. Fewer people's first choice for publishing is to start a web site hosted at their own domain. Like the destruction of Pennsylvania Station, sometimes you only know in hindsight that you've made a mistake. We were so caught up in Twitter and Facebook that we let the open web crumble. I'm not giving up — I think we can get people excited about blogging and owning their own content again — but it would have been easier if we had realized [what we lost][7] earlier.
 
-Reading posts like Marco's and Federico's, and listening to Jason and Myke on Upgrade, I'm convinced that podcasting will remain open because _we know better now_. As a community we can learn from the mistakes with the web and the threats of closed platforms, making sure that podcasting is preserved as a simple technology that no one controls.
+Reading posts like Marco's and Federico's, and listening to Jason and Myke on Upgrade, I'm convinced that podcasting will remain open because as a community _we know better now_. We can see the dominance of YouTube controlling nearly all web video. We can learn from the mistakes with the web and the threats of closed platforms, making sure that podcasting is preserved as a simple technology that no one controls.
 
 And we can take a fresh look at all the blogging platforms that have come before, learn from what worked well with previous social networks and what failed, and recommit to bringing the best parts back to today's web. This time, prepared for the future.
 

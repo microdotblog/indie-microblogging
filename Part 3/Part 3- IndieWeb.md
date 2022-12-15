@@ -72,7 +72,7 @@ There are additional APIs, such as WebSub (a way to subscribe to a feed to avoid
 
 The rest of this part will focus on Microformats, Micropub, and Webmention. But first, let’s go through why we blog — the value of owning our content and making it last.
 
-[1]:	https://tantek.com/2010/002/t1/html-model
+[1]:	https://tantek.com/2010/001/t1/declaring-independence-building-it
 [2]:	https://www.w3.org/2005/Incubator/federatedsocialweb/wiki/Federated_Social_Web_Summit_2010
 [3]:	https://web.archive.org/web/20100715062843/http://status.net/2010/07/13/what-is-the-federated-social-web
 [4]:	https://twitter.com/gruber/status/3429789407

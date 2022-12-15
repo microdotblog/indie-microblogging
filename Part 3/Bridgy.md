@@ -1,5 +1,7 @@
 ## Bridgy
 
+_“So come and walk awhile with me and share the twisting trails and wondrous worlds I've known. But this bridge will only take you halfway there. The last few steps you have to take alone.” — Shel Silverstein_
+
 POSSE is a popular part of the IndieWeb community. Cross-posting lets us stay connecting with friends on other silos like Twitter.
 
 [Bridgy][1] was developed by Ryan Barrett to help "bridge" the gap between our own blogs and silos. If you're cross-posting your blog posts to Twitter, Bridgy can check for replies or likes to those tweets and then send them back to your blog via Webmention.

@@ -1,5 +1,7 @@
 ## RSS for microblogs
 
+_“A complex system that works is invariably found to have evolved from a simple system that works.” — John Gall_
+
 Even if RSS doesn’t need to change, some types of apps would be better off if we took a fresh look at the elements in an RSS feed. What is really needed, and when faced with multiple “correct” options, which should we choose? As more writers embrace microblogging, it’s an opportunity to simplify our feeds and tools.
 
 There have been proposals for _adding_ things to RSS to make it more suitable for microblogging and social networks. RSS 2.0 uses XML namespaces to add new types of data to a feed. Dave Winer in 2012 proposed his own `microblog` namespace with additions such as linking to the archive of someone's microblog posts. Dave [blogged at the time][1]:

@@ -1,8 +1,10 @@
 ## Alternative platforms
 
-In addition to WordPress and Micro.blog itself, here are some other options for microblog hosting.
+_“In principle, I don’t believe anyone should own or run Twitter. It wants to be a public good at a protocol level, not a company.” — [Jack Dorsey][1]_
 
-### Tumblr
+When you disentangle your content from a centralized service like Twitter, using your domain name as the identifier instead of the silo’s domain name, you have many more choices for where to host your data. In addition to WordPress and Micro.blog itself, here are some other options for microblog hosting.
+
+**Tumblr**
 
 Tumblr and Micro.blog share many principles. Everyone gets a hostname, which can be upgraded with your own custom domain name, and there are many built-in designs for your blog.
 
@@ -16,25 +18,25 @@ But Micro.blog users can also follow Tumblr blogs directly, even if the Tumblr u
 
 ![][image-1]
 
-### Ghost
+**Ghost**
 
-Like WordPress, Ghost is an open source project that you can either self-host yourself or pay [Ghost.org][1] to host for you. By default Ghost uses the placeholder text "(untitled)" for blank title fields, so it's not well-suited for microblogging. You can add custom CSS to hide these titles in your blog's design.
+Like WordPress, Ghost is an open source project that you can either self-host yourself or pay [Ghost.org][2] to host for you. By default Ghost uses the placeholder text "(untitled)" for blank title fields, so it's not well-suited for microblogging. You can add custom CSS to hide these titles in your blog's design.
 
-[Mike Haynes has documented][2] some additional work-arounds to Ghost’s default “(untitled)” behavior:
+[Mike Haynes has documented][3] some additional work-arounds to Ghost’s default “(untitled)” behavior:
 
 > Using the custom RSS routing was tough for me to wrap my head around but I finally cracked it and, if you've struggled with the same, I want to share how I split out the post types into their own feeds and got them to display correctly
 
 Unfortunately Ghost chose to build a custom API instead of adopting a standard blog posting API. You can post to Ghost from some native apps such as Ulysses, but not from Micro.blog.
 
-### Blot
+**Blot**
 
 Blot is a service that takes text files on Dropbox and converts them into a web site. It's a convenient way to create photo albums and other sites that you might want to manage from files you have on your computer. Blot creates an RSS feed that works in Micro.blog.
 
-### Mastodon
+**Mastodon**
 
 Mastodon is a federated social network that we cover in much greater depth in Part 5. You can add the RSS feed for your Mastodon account to Micro.blog for those posts to show up in the timeline. You can also follow Mastodon users directly in Micro.blog.
 
-### Write.as
+**Write.as**
 
 Write.as shares many of the same principles as Micro.blog. It has a clean, clutter-free writing UI. You can use your own domain name and the marketing highlights this:
 
@@ -42,25 +44,26 @@ Write.as shares many of the same principles as Micro.blog. It has a clean, clutt
 
 The pricing of Write.as is comparable to Micro.blog and the focus is around writing. There are plans for teams, but it’s about personal blogs first.
 
-### Jekyll
+**Jekyll**
 
 Jekyll is a static-site generator that is well-supported by GitHub. You write new blog post as text files with Markdown. After checking the text files in to a repository for your blog, GitHub Pages automatically generates the HTML and serves your blog for free. It also includes support for custom domain names.
 
-If you want to get started with a blank single-page web site, the IndieWeb also has the [blank-gh-site][3] repository that you can clone.
+If you want to get started with a blank single-page web site, the IndieWeb also has the [blank-gh-site][4] repository that you can clone.
 
-### The challenge with static sites
+**The challenge with static sites**
 
 Before WordPress took off, Movable Type was one of the most popular blogging platforms. It provided a web interface for managing posts but then generated static HTML pages that were served directly without needing a server-side scripting language. Serving static HTML pages is fast and portable to many different platforms with few dependencies.
 
 Today's static-site generators take out the web interface and focus purely on building a series of HTML pages based on source files, usually written in Markdown. They have the performance advantages of being served directly by Apache or Nginx, but require running a script on your own computer instead of posting with other apps via an API. This makes posting from multiple computers or mobile devices more difficult.
 
-Micropub is an IndieWeb posting API that we cover in part 3. There are [open source projects][4] that attempt to work around the limitation of static-site generators by providing a Micropub API proxy. This makes API endpoints available for apps such as Micro.blog to call to, and then turns those requests into files that are checked in to GitHub for your static site.
+Micropub is an IndieWeb posting API that we cover in part 3. There are [open source projects][5] that attempt to work around the limitation of static-site generators by providing a Micropub API proxy. This makes API endpoints available for apps such as Micro.blog to call to, and then turns those requests into files that are checked in to GitHub for your static site.
 
 Static sites are by their definition not _dynamic_, and so not well-suited to get started with integrating APIs that need to process incoming web requests such as posting or comments. Micro.blog is powered by the static-site generator Hugo under-the-hood, but Micro.blog provides a layer on top that takes care of everything you need. If you’re rolling your own web site instead of using Micro.blog or WordPress, be prepared to jump through some hoops to get everything working.
 
-[1]:	https://ghost.org
-[2]:	https://mikehayn.es/displaying-posts-without-titles-in-ghost-rss-feeds/
-[3]:	https://github.com/indieweb/blank-gh-site
-[4]:	https://indieweb.org/static_site
+[1]:	https://twitter.com/jack/status/1518772756069773313
+[2]:	https://ghost.org
+[3]:	https://mikehayn.es/displaying-posts-without-titles-in-ghost-rss-feeds/
+[4]:	https://github.com/indieweb/blank-gh-site
+[5]:	https://indieweb.org/static_site
 
 [image-1]:	https://book.micro.blog/uploads/2020/8570bf0d3a.png

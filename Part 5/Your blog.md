@@ -72,7 +72,11 @@ As more Micro.blog users interact with Mastodon users, some of those users will 
 
 ---- 
 
-There are other options for Mastodon-compatible usernames, but with a focus on blogging. [Pleroma][7] bills itself as a “lightweight” fediverse server. [Microblog.pub][8] is a single-user microblogging server you can run yoursrelf. [Bridgy Fed][9] takes a similar approach to Micro.blog, gluing ActivityPub support into an existing blog.
+There are other options for Mastodon-compatible usernames, but with a focus on blogging. [Pleroma][7] bills itself as a “lightweight” fediverse server. [Microblog.pub][8] is a single-user microblogging server you can run yourself. [Bridgy Fed][9] takes a similar approach to Micro.blog, gluing ActivityPub support into an existing blog.
+
+[In a blog post about the IndieWeb and the fediverse][10], Ben Werdmuller wrote that he was moving away from cross-posting to other services, instead keeping the focus on his own site, now that he can participate in the larger world of Mastodon instances:
+
+> I want my site to connect to the indieweb; to the fediverse; to people who are connecting via RSS; to people who are connecting via email. No more syndication to third parties. My own website sits in the center of my online identity, using open standards to communicate with outside communities.
 
 ActivityPub is now widely deployed and makes a great addition to most blog platforms, as long as there’s a solid foundation first with personal domain names, feeds, and IndieWeb standards.
 
@@ -83,6 +87,7 @@ ActivityPub is now widely deployed and makes a great addition to most blog platf
 [7]:	https://pleroma.social
 [8]:	https://github.com/tsileo/microblog.pub
 [9]:	https://fed.brid.gy
+[10]:	https://werd.io/2022/the-fediverse-and-the-indieweb
 
 [image-1]:	https://book.micro.blog/uploads/2022/1dacc8e099.png
 [image-2]:	https://book.micro.blog/uploads/2022/289471261d.png

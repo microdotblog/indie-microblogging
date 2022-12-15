@@ -66,24 +66,25 @@ Mastodon also has limited search. Mastodon prevents full-text search: Explained 
 
 > Prevent harmful behaviours like namesearching or finding people to harrass based on keywords. If you want your post to be found based on keywords, you use a hashtag.
 
-Still have global timeline. But have to accidentally find the posts instead of looking for them.
+Mastodon still has a global timeline. But you have to accidentally find the posts instead of looking for them.
 
-Instagram disabled the recent hashtags view leading up to the election to prevent misinformation from spreading quickly. They said:
-
-[https://twitter.com/InstagramComms/status/1321957713476280320][5]
+Instagram disabled the recent hashtags view leading up to an election, to prevent misinformation from spreading quickly. [They said][5]:
 
 > Starting today, for people in the U.S. we will temporarily remove the “Recent” tab from hashtag pages. We’re doing this to reduce the real-time spread of potentially harmful content that could pop up around the election.
 
-Because there would be no recent, unfiltered posts where anything can surface, only the top posts that have been reviewed by Instagram would appear for the hashtag. It is a more curated solution, where posts are reviewed before they appear instead of after, when it might be too late to fact-check a post.
+Because there would be no recent unfiltered posts where anything can surface, only the top posts that have been reviewed by Instagram would appear for the hashtag. It is a more curated solution, where posts are reviewed before they appear instead of after, when it might be too late to fact-check a post.
 
----- 
+[In an interview with Kara Swisher][6] for the Sway podcast, Snapchat founder Evan Spiegel talked about the concern that harmful videos might go viral. They focused on building a platform that would allow human curation of viral videos because those videos would reach as many people:
 
-(Need to add: Sway interview with Snapchat, didn’t want to surface anything or let videos go viral unless they were already known to comply with guidelines.)
+> And on the other hand, with broadcast content, the government has applied a much higher standard to what you’re allowed to broadcast on television, for example. And so, we’ve built that into our platform with our content guidelines. And that’s why, as I mentioned, we were concerned about a platform that essentially allows videos to go viral. And we really had to build a lot of this moderation infrastructure where humans actually review the content that’s reaching a large audience.
+
+It’s okay if every platform has a different approach to curation. Some platforms like Micro.blog make it difficult for posts to spread virally, and others like Snapchat or Facebook may catch the viral spread and throttle it down if it’s harmful content or misinformation. What is not okay is to have no curation at all, with popular trending keywords and posts spreading like fire, fueled by algorithms unchecked.
 
 [1]:	http://paulgraham.com/ds.html
 [2]:	https://micro.welltempered.net/2019/06/13/curating-the-microblog.html
 [3]:	https://stratechery.com/2019/why-cloudflare-matters-the-absence-of-gatekeepers-promotion-versus-moderation/
 [4]:	https://twitter.com/joinmastodon/status/1460692720561934340
 [5]:	https://twitter.com/InstagramComms/status/1321957713476280320
+[6]:	https://www.nytimes.com/2021/05/20/opinion/sway-kara-swisher-evan-spiegel.html
 
 [image-1]:	https://book.micro.blog/uploads/2020/0b23018e05.png "Screenshot of Sunlit photos grid"

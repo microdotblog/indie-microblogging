@@ -1,5 +1,7 @@
 ## WebSub
 
+_“That's called polling. And although it works, it's slow and inefficient, and about as annoying as a person in the backseat asking: "Are we there yet?" — Brett Slatkin and Brad Fitzpatrick [in a video for PubSubHubbub][1]_
+
 The notifications-based approach of Mastodon means that there doesn’t need to be regular polling. Instead of a client checking a page or feed every few minutes for new posts, ActivityPub in Mastodon sends posts to all followers as the post is published.
 
 Contrast with traditional RSS feed readers. One of the most important things a feed reader or new service like Micro.blog has to do is download posts from other sites via RSS. Whether that’s a Microformats feed, RSS, or a JSON Feed.
@@ -55,7 +57,7 @@ XML-RPC is very verbose. As we've already covered leading up to JSON Feed, most 
 
 ---- 
 
-This brings us to WebSub, [a W3C recommendation][1] from the IndieWeb community. It was formerly called PubSubHubbub.
+This brings us to WebSub, [a W3C recommendation][2] from the IndieWeb community. It was formerly called PubSubHubbub.
 
 > WebSub provides a common mechanism for communication between publishers of any kind of Web content and their subscribers, based on HTTP web hooks. Subscription requests are relayed through hubs, which validate and verify the request. Hubs then distribute new and updated content to subscribers when it becomes available.
 
@@ -73,10 +75,11 @@ No one wants to wait 5 minutes for a post to show up. Fast posting also enables 
 
 WordPress.com already supports this by default. There is also a WordPress plugin for self-hosted blogs, and JSON Feed includes a `hubs` field so that WebSub support can be described for a blog without needing an RSS or XML feed.
 
-Most blogs can use an existing WebSub hub. For anyone who wants to control every part of the notification process, Aaron Parecki’s open source project [Switchboard][2] is a hub you can host yourself.
+Most blogs can use an existing WebSub hub. For anyone who wants to control every part of the notification process, Aaron Parecki’s open source project [Switchboard][3] is a hub you can host yourself.
 
-[1]:	https://www.w3.org/TR/websub/
-[2]:	https://github.com/aaronpk/Switchboard
+[1]:	https://www.youtube.com/watch?v=B5kHx0rGkec
+[2]:	https://www.w3.org/TR/websub/
+[3]:	https://github.com/aaronpk/Switchboard
 
 [image-1]:	https://book.micro.blog/uploads/2019/0f0d87937f.png
 [image-2]:	https://book.micro.blog/uploads/2019/817a6bf817.png

@@ -1,5 +1,7 @@
 ## IndieAuth
 
+_“My approach to security, and I think this is true for others involved with OAuth, is to strive for the best security that will actually work.” — [Blaine Cook][1]_
+
 OAuth is a standard for signing in to web apps. It is used by a platform such as Twitter to grant another app access to a user's data or the ability to post to that user's account. All major platforms like Twitter, Facebook, GitHub, and Medium have adopted a version of OAuth for their API.
 
 An important goal with OAuth was to discourage apps from needing to ask for your password directly. OAuth allows apps to get access to your information while making sure that you only ever enter your password in one place: on the platform where your account was created.
@@ -27,7 +29,7 @@ An app uses the "client ID" and "client secret" as part of the flow for building
 
 With a more distributed web, there won't just be a few popular sites to register an app with. There will be many thousands of sites. There needs to be a shortcut around registration.
 
-[In adapting OAuth for the IndieWeb][1], Aaron Parecki summarized the problem this way:
+[In adapting OAuth for the IndieWeb][2], Aaron Parecki summarized the problem this way:
 
 > The first major hurdle to overcome is the need for the developer to register to get API keys for the service. In a world where everyone's own website is its own OAuth server, it's obviously not practical to have an app developer register API keys at each.
 
@@ -91,7 +93,7 @@ Now the client app can save this access token and use it in other IndieWeb API c
 
 In these examples, it's Micro.blog's own IndieAuth implementation that will handle signing the user in, but the user could delegate authentication to an external service.
 
-[IndieLogin.com][2] facilitates this delegation by verifying that your identity matches between your blog and common platforms like Twitter and GitHub.
+[IndieLogin.com][3] facilitates this delegation by verifying that your identity matches between your blog and common platforms like Twitter and GitHub.
 
 To get started, make sure you have a `rel="me"` link on your blog's home page. These use `link` tags to point to your profile page on those platforms:
 
@@ -111,7 +113,7 @@ When you use IndieLogin.com to sign in, it can check that these profile links ma
 * That your blog links to a platform like Twitter or GitHub that you'll be using to authenticate.
 * That your profile on that platform also links back to your blog, confirming your blog and the profile are owned by the same person.
 
-This method of authentication is also called [RelMeAuth][3].
+This method of authentication is also called [RelMeAuth][4].
 
 IndieLogin.com doesn't need to do this for Micro.blog-hosted blogs because Micro.blog itself is already an IndieAuth provider.
 
@@ -147,16 +149,17 @@ The response will have the user's verified web site URL:
 	  "me": "https://manton.org/"
 	}
 
-See the [IndieLogin.com API page][4] for more options on working with IndieLogin.
+See the [IndieLogin.com API page][5] for more options on working with IndieLogin.
 
 ---- 
 
 IndieAuth can be used to grant access to an API that can handle anything that is appropriate for that platform, but in practice the most common API call is to create a new blog post. Creating new blog posts is handled with the Micropub API.
 
-[1]:	https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web
-[2]:	https://indielogin.com
-[3]:	http://microformats.org/wiki/RelMeAuth
-[4]:	https://indielogin.com/api
+[1]:	https://mailarchive.ietf.org/arch/msg/oauth/7cer92BXXvrr-zIeJuTwtQSmHz4/
+[2]:	https://aaronparecki.com/2018/07/07/7/oauth-for-the-open-web
+[3]:	https://indielogin.com
+[4]:	http://microformats.org/wiki/RelMeAuth
+[5]:	https://indielogin.com/api
 
 [image-1]:	https://book.micro.blog/uploads/2020/5d655de323.png "Screenshot with sign-in buttons"
 [image-2]:	https://book.micro.blog/uploads/2020/da26198009.png

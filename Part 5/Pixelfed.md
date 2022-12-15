@@ -1,16 +1,20 @@
 ## Pixelfed
 
+_“My good opinion once lost is lost forever.” — Pride and Prejudice_
+
+There was a growing backlash against Twitter among Mastodon users who felt they had found their new social network on the internet. Users coined the derogatory term Birdsite for Twitter, determined to never return. Mastodon’s UI was so similar to Twitter that it was a natural next social network, even if it only partially fulfilled the goals of the IndieWeb.
+
 Mastodon has inspired developers to create additional new services that can be more open versions of popular platforms. Bookwyrm is a book sharing site with features similar to Goodreads. PeerTube is a video sharing site. Pixelfed is a photo sharing site based heavily on Instagram's UI, but compatible with Mastodon.
 
 Pixelfed developer Daniel Sup first heard about Mastodon in 2016. He was coming from Statusnet, an early federated platform known for its technical implementation if not necessarily its UI, and Daniel found Mastodon’s UI a refreshing change.
 
 I interviewed Daniel Sup over email for this book and he described how the development of Pixelfed started:
 
-> Around 2016 I started working on a GNU/Social successor using the Laravel framework. I picked it back up in early 2018 and made a lot of progress for a few months until I started implementing federation support. That is when I realized I made a mistake with the database schema, it would require a significant refactor [0]().
+> Around 2016 I started working on a GNU/Social successor using the Laravel framework. I picked it back up in early 2018 and made a lot of progress for a few months until I started implementing federation support. That is when I realized I made a mistake with the database schema, it would require a significant refactor.
 
 > At that time I had discovered Pleroma and decided to research other social networks, two weeks later I shared the first screenshot of Pixelfed.
 
-Like Mastodon, Pixelfed is open source, so developers can run their own versions of it. The original instance, `pixelfed.social`, stopped accepting registrations after about 10,000 users. Developer @dansup [posted about the news][2] in May 2019:
+Like Mastodon, Pixelfed is open source, so developers can run their own versions of it. The original instance, `pixelfed.social`, stopped accepting registrations after about 10,000 users. Developer @dansup [posted about the news][1] in May 2019:
 
 > It was a tough decision to make, I think it will pay off in the long run 😉
 
@@ -24,7 +28,7 @@ Pixelfed looks remarkably similar to Instagram. Where Instagram is still primari
 
 ![][image-1]
 
-[In early 2020][4], Pixelfed also added a new featured called Restricted Mode that makes a personal instance more suitable to be privately shared with family and friends:
+[In early 2020][3], Pixelfed also added a new featured called Restricted Mode that makes a personal instance more suitable to be privately shared with family and friends:
 
 > Restricted Mode will allow you to require authentication for every page and disable federation support with a single command.
 
@@ -36,7 +40,7 @@ Large platforms, even if they are backed by open standards, should be avoided if
 
 Rather than looking for "another Twitter" or "another Instagram", we should look at the plumbing behind Mastodon and Pixelfed and support that with indie blogs. That plumbing is mostly referred to as ActivityPub, although Mastodon is really a blend of multiple APIs like WebFinger, ActivityPub, Atom feeds, and even some IndieWeb formats.
 
-[2]:	https://mastodon.social/@dansup/102166878559849519
-[4]:	https://mastodon.social/@pixelfed/103542563320249737
+[1]:	https://mastodon.social/@dansup/102166878559849519
+[3]:	https://mastodon.social/@pixelfed/103542563320249737
 
 [image-1]:	https://book.micro.blog/uploads/2020/3d2b9de6dd.png

@@ -1,5 +1,7 @@
 ## Micro.blog and feeds
 
+_“As software developers and designers, we have a responsibility to the world to think these things through carefully and design software that makes the world better, or, at least, no worse than it started out.” — [Joel Spolsky][1]_
+
 No matter which blogging platform you use, the posts flow into Micro.blog from RSS and JSON feeds. Even microblogs hosted by Micro.blog itself generate their own feeds — just like WordPress or any blogging platform — which Micro.blog then reads from. Abstracting the connection with feeds makes for a consistent experience across a variety of blogs.
 
 The central user interface in Micro.blog is the timeline. The timeline shows posts from your friends' microblogs.
@@ -8,7 +10,7 @@ The central user interface in Micro.blog is the timeline. The timeline shows pos
 
 When someone you're following publishes a new post, Micro.blog displays it in the timeline. Micro.blog does some minor processing on the post HTML, striping out HTML tags or JavaScript that aren't appropriate for the timeline. Photos are displayed inline for short posts, and longer posts with titles are linked back to the author's web site.
 
-### How feeds work
+**How feeds work**
 
 A single account on Micro.blog can have one or more feeds. Unlike a traditional RSS reader where adding feeds controls which blogs you're reading, adding feeds to your account on Micro.blog controls where _your own posts_ come from. (There's a separate interface for following other blogs.)
 
@@ -33,7 +35,7 @@ Micro.blog checks your feed for new posts as soon as the post is published, or e
 
 ![][image-3]
 
-### Timeline display rules
+**Timeline display rules**
 
 Micro.blog follows a few rules when processing your RSS or JSON Feed into microblog posts to show in the timeline:
 
@@ -53,6 +55,8 @@ But the reason is that Micro.blog is optimized for microblog posts. One of the t
 By having some rules about what a microblog post is, and making it easy to follow those rules in a Micro.blog-hosted blog, it will slowly start to change how people approach microblogging on their own site. If we didn't do anything special for microblog posts, nothing on the web would change, and microblogging would remain a feature of closed platforms only.
 
 Part 4 includes more details about why indie microblogs use HTML for posts. Support for HTML tags is an important part of making Micro.blog feel like an extension of the open web instead of a replacement for it.
+
+[1]:	https://www.joelonsoftware.com/2018/01/12/birdcage-liners/
 
 [image-1]:	https://book.micro.blog/uploads/2020/5fc0025966.png
 [image-2]:	https://book.micro.blog/uploads/2020/f7e6a1a29d.png

@@ -1,5 +1,7 @@
 ## Introducing Micro.blog
 
+_“All we have to decide is what to do with the time that is given us.” — J. R. R. Tolkien_
+
 Micro.blog is built on this foundation of JSON and RSS feeds, the importance of content ownership through domain names, and a new UI inspired by social networks.
 
 Because of the technical hurdles of self-hosting your own blog, if we want to encourage more people to blog, it has to be much easier. Centralized platforms allow for that ease of use — nothing to install or maintain, with all the right defaults that use open standards.

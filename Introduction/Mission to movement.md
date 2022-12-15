@@ -24,6 +24,8 @@ The venture capitalist (and blogger) Fred Wilson [wrote about][3] focusing on wo
 
 > You must work on something that inspires you and others, you must work on something with a significant impact, and you must do it in a way that makes getting where you want to go as easy as possible and keeps you there as long as possible.
 
+People are increasingly disillusioned with larger companies. When a company gets too big, that company inevitably forgets why they exist. Not even the greatest, mission-driven companies seem to be able to escape this fate. The only way to stay true to your roots is to stay small. And smaller companies will inherently discourage centralization.
+
 It might seem that short and often ephemeral posts have trained us with short-attention spans. To see the movement we must look over a longer period at the collection of all those posts — not just our own posts, but the potential for microblog posts all across the web.
 
 This book you're reading is longer than I had intended, especially ironic given that its subject matter is short posts. But the goal is big. It's not about any one new social network. It's about a new way of thinking about publishing on the web.

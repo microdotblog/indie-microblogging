@@ -1,6 +1,6 @@
 ## Special thanks
 
-_“There's no such thing as a sure thing. At the end of the day, the only thing that matters is what you think.” — Ali, Draft Day_
+_“There's no such thing as a sure thing. At the end of the day, the only thing that matters is what you think.” — Ali from Draft Day_
 
 In the summer of 2015, I wrote a reminder to myself on a little scrap of paper:
 
