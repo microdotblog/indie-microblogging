@@ -36,6 +36,8 @@ An algorithm might not have intentional bias, but any filtering has an impact on
 
 For Micro.blog, I didn't want to start out supporting hashtags. By not linking hashtags in a post on Micro.blog, users will find less value in them and slowly stop using them. As a side effect, posts are much cleaner without hashtags, so the timeline feels less cluttered.
 
+Mastodon posts are by contrast often overloaded with hashtags, even more so than on Twitter, further hurting readability. Some of that user behavior to overuse hashtags comes from how search in Mastodon works. Search in Mastodon only indexes hashtags. If you don’t use hashtags, your post cannot be found via search.
+
 The UI for hashtags impacts how users behave. It encourages using certain features, and discourages others. It shapes what people include in their tweets and how they format it.
 
 Communities are also shaped by the tools members are given. Longer posts might lead to more thoughtful replies. Heated debates might be tempered if the UI encouraged hitting "pause" on conversations before they escalated into personal attacks.

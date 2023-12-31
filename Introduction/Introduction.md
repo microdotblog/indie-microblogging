@@ -6,7 +6,7 @@ I was nervous as I drafted the email from my hotel room. A reception was startin
 
 Micro.blog has steadily improved over the years. It has come a long way since the first public beta in 2017, with changes rolled out on a weekly basis. The book companion to Micro.blog that you hold in your hands had faltered, though, with improvements kept in my draft but not shared with the world.
 
-This book would’ve been more profound if it had been published in 2017 instead of 2022. The longer it took me to write it, the more well-understood the problems of massive social networks seemed to be with the general public. Years after Cambridge Analytica, the 2016 election, hate speech on Twitter, and Facebook CEO Mark Zuckerberg testifying before Congress, I started to wonder if I could even add anything unique to the conversation.
+This book would’ve been more profound if it had been published in 2017 instead of 2024. The longer it took me to write it, the more well-understood the problems of massive social networks seemed to be with the general public. Years after Cambridge Analytica, the 2016 election, hate speech on Twitter, and Facebook CEO Mark Zuckerberg testifying before Congress, I started to wonder if I could even add anything unique to the conversation.
 
 But for all the known problems, there remain very few proposed solutions. In the debate about the role of platforms, there are offshoots into new technologies, web history, safe communities, even antitrust law. These are threads that we need to tie together with a cohesive framework.
 

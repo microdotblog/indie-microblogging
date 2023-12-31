@@ -26,6 +26,8 @@ A common set of DNS records to use Micro.blog servers for hosting would look lik
 | A     |          | 104.200.22.214      |
 | CNAME | www      | username.micro.blog |
 
+Even one of the web’s newer social network platforms, Bluesky, has embraced domain names as usernames with the AT Protocol. By adding a DNS record or a special `.well-known` document at your domain name, you link your account with your domain name.
+
 Domain names are so important because they exist at a layer above any web hosting platforms. If you're no longer happy with your web host, or they go out of business, it's your domain name that allows you to move to another web host without breaking URLs, so that readers can still find your content. This level of indirection makes your content portable, which makes it your own.
 
 [1]:	https://www.internethalloffame.org//blog/2012/07/23/why-does-net-still-work-christmas-paul-mockapetris

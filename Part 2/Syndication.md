@@ -82,7 +82,7 @@ And at the same time, podcasting has grown into a huge industry. Almost all podc
 
 RSS is not going anywhere. Even if we explore other formats for syndication, all blogs should have an RSS feed. RSS forms the foundation for subscribing to blogs and delivering podcasts. It’s huge and the open web is a much better place because RSS exists.
 
-So we should do 2 things: support RSS in its simplest form, cutting out all the cruft, and also support JSON Feed to make it easier to build new apps.
+So we should do two things: support RSS in its simplest form, cutting out all the cruft, and also support JSON Feed to make it easier to build new apps.
 
 [1]:	http://scripting.com/2015/01/03/theMagicOfWorkingTogether.html
 [2]:	http://scripting.com/davenet/1997/12/15/scriptingNewsInXML.html

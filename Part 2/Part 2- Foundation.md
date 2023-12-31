@@ -8,7 +8,7 @@ My first post, in its entirety:
 
 > SXSW Interactive started today. Seems an appropriate time to start a weblog, as if there weren’t enough in the world already. Welcome, and enjoy.
 
-In hindsight, this first post illustrated two things: first, it was actually a microblog post, at only 145 characters and no title; and second, I thought I was _late_ to blogging. I thought there might already be too many blogs. Now, 20 years later, my blog is older than only a handful of the hundreds that I read regularly.
+In hindsight, this first post illustrated two things: first, it was actually a microblog post, at only 145 characters and no title; and second, I thought I was _late_ to blogging. I thought there might already be too many blogs. Now, 20 years later, my blog is older than all but a handful of the hundreds that I read regularly.
 
 There weren't enough blogs back in 2002, and there aren't enough now. I have no doubt that some of the blogs created today will be important in the years ahead, maybe contributing to a debate on politics, or showcasing new writing or art, or serving as an archive that reflects today's culture.
 

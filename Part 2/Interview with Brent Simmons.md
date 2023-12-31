@@ -2,7 +2,7 @@
 
 A bunch of people contributed to the development of JSON Feed, suggesting the structure of fields and the wording in the specification, but along the way it was Brent Simmons who guided the process. He drew from his experience building the feed reader NetNewsWire and having had to deal with all the feeds out in the real world, combined with a sense that to push back against centralization and silos we need a modern approach to feeds.
 
-For this book, I wanted to go back farther in time, to talk to Brent about his early work with RSS, XML-RPC, and the UI of feed readers.
+For this book, I wanted to go back further in time, to talk to Brent about his early work with RSS, XML-RPC, and the UI of feed readers.
 
 **Manton:** You and I were part of the Mac web server community in the mid-1990s. It was based around the WebSTAR server, originally developed as MacHTTP by Chuck Shotton. I have great memories from that community and wonder if anything stands out to you from those classic Mac OS days before Apple acquired NeXT?
 

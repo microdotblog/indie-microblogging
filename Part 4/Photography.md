@@ -6,7 +6,7 @@ Smartphones changed photography. Between the 2007 introduction of the iPhone and
 
 [Om Malik blogged about the appeal of iPhone photography][1] even though he owned more expensive standalone cameras:
 
-> While these don’t compare to the high-end cameras and even pricer lens, they make the amateur in me feel encouraged about photography. I think this is the ultimate beauty of iPhone — it has made photography not scary. It has removed technology and made it just an act of creation.
+> While these don’t compare to the high-end cameras and even pricier lens, they make the amateur in me feel encouraged about photography. I think this is the ultimate beauty of iPhone — it has made photography not scary. It has removed technology and made it just an act of creation.
 
 That same year, Phil Schiller was John Gruber's guest at [The Talk Show live at WWDC 2015][2]. They talked about how Apple had become "the" leading camera company in the world.
 

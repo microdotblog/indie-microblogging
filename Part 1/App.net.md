@@ -12,7 +12,7 @@ Facebook suggested they could compete with Dalton's product or buy his company. 
 
 Even before App.net was fully funded, they released a prototype Twitter clone called "Alpha" as a test for their new API. The API was modern and well-designed. Some features that might be left to third-party developers to extend, like my Tweet Marker API for timeline syncing, were built in as core parts of the API.
 
-App.net further embraced developers through in-person hack days and a developer fund that paid third-party developers based on usage in their apps. This lessoned the risk of jumping into a new platform, making sustainability more of a possibility for new apps like Netbot, a port of the popular Tweetbot to App.net.
+App.net further embraced developers through in-person hack days and a developer fund that paid third-party developers based on usage in their apps. This lessened the risk of jumping into a new platform, making sustainability more of a possibility for new apps like Netbot, a port of the popular Tweetbot to App.net.
 
 ---- 
 
@@ -50,7 +50,7 @@ Two years later the experiment was over. Dalton announced that subscription reve
 
 Something _was_ missing, but not a game. The App.net team got so much right — the early crowdfunding, the well-designed API, the developer story — that I didn't notice what they had left out until much later. All data lived at `app.net` URLs, and when the platform was gone, all the posts and data went with it. There was no way to own your content.
 
-To learn from App.net, we should be inspired by its rich APIs, and especially it’s developer-friendly ecosystem. But it was too centralized.
+To learn from App.net, we should be inspired by its rich APIs, and especially its developer-friendly ecosystem. But it was too centralized.
 
 [1]:	http://daltoncaldwell.com/what-twitter-could-have-been
 [2]:	http://daltoncaldwell.com/dear-mark-zuckerberg

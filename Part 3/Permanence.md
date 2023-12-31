@@ -30,7 +30,7 @@ The only way to preserve something is to make multiple copies and distribute the
 
 > The promise of the web is that Alexandria’s library might be resurrected for the modern world. But today’s great library is being destroyed even as it is being built. Until you lose something big on the Internet, something truly valuable, this paradox can be difficult to understand.
 
-Bloggers will keep running into this until we take steps to solve it. It's something [Dave Winer has written about][4], calling the topic "future-safe archives". It's something anyone with a large collection of writing online probably thinks about. How do we preserve the culture and art and stories of our time when the preferred media is so fragile?
+Bloggers will keep running into this until we take steps to solve it. It's something [Dave Winer has written about][4], calling the topic "future-safe archives". It's something anyone with a large collection of writing online probably thinks about. How do we preserve the culture and art and stories of our time when the preferred media are so fragile?
 
 One answer is control. By publishing to our own web site, it’s up to us where the posts and replies are copied to, mirrored, and how long they last.
 
@@ -56,7 +56,7 @@ Interviewed by [Jason Calacanis in 2020][8], Internet Archive founder Brewster K
 
 > The idea of the Internet Archive is to build universal access to all knowledge. Can we make it so that anybody curious enough that wants to have access to anything ever published. A book, or a lecture that was made available, or old web pages. Can we make it so that people could go and learn from it and build on it, and then build new things that are worthy of sharing.
 
-And that we need multiple copies of something. Usually there is only one copy of something, at a publisher’s web site, and Kahle said that “1” is “almost always the wrong answer”.
+Kayle also emphasized that we need multiple copies of something. Usually there is only one copy, at a publisher’s web site, and Kahle said that “1” is “almost always the wrong answer”.
 
 We need more platforms that can offer mirroring outside the Internet Archive too, and that's what Micro.blog has tried to do. We have a GitHub archiving feature that takes your blog posts and photos and copies them to a GitHub repository. That way they can be served by GitHub, or downloaded and backed up.
 

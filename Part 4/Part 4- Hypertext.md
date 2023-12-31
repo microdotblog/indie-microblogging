@@ -14,9 +14,9 @@ For apps like Instagram that don't have the flexibility of allowing HTML in post
 
 Instagram is not alone. Most social networks have taken the rich expression of HTML, with inline links and photos, and simplified it down to just text and URLs appended at the end of a post. Twitter will auto-link pasted URLs, but won't allow other linked text.
 
-Snapchat and TikTok barely exist on the web at all. They are built on web technologies while relegating actual web browsers as second-class citizens, only useful to funnel users into closed platforms behind native apps.
+Snapchat and TikTok barely exist on the web at all. They are built on web technologies while relegating actual web browsers to the status of second-class citizens, only useful to funnel users into closed platforms behind native apps.
 
-When content is inside an app, the content’s location becomes opaque. There might not be an obvious URL to that content. If there is no URL, there can no emphasize on custom domain names, because there is no user-visible domain name at all.
+When content is inside an app, the content’s location becomes opaque. There might not be an obvious URL to that content. If there is no URL, there can no emphasis on custom domain names, because there is no user-visible domain name at all.
 
 Links and photos are a fundamental part of how the web is extensible and open. I'll never forget the impact this first had on me, sitting at my old Mac Classic in 1994, dialed up to the web through a BBS gateway, tabbing through links to download the first photos from the Shoemaker-Levy comet.
 

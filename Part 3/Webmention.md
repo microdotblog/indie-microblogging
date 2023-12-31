@@ -50,7 +50,7 @@ The first step to sending a Webmention is discovering the endpoint URL to send t
 
 All Micro.blog-hosted blogs use the same Webmention endpoint URL. External blogs such as WordPress will use a URL provided by the Webmention plugin for WordPress.
 
-Webmentions are sent to the endpoint URL as an HTTP POST with essentially just 2 form-encoded parameters:
+Webmentions are sent to the endpoint URL as an HTTP POST with essentially just two form-encoded parameters:
 
 * `source`: the URL of the new reply
 * `target`: the URL of the original post being replied to
@@ -83,6 +83,18 @@ When receiving the Webmention, Aaron's blog will download the reply from Micro.b
 Usually software like Micro.blog will handle this automatically. If you need to manually send a Webmention, the web-based tool Telegraph includes a convenient [Send a Webmention][7] feature. It will discover the Webmention endpoint URL for you based on the post you are sending a reply to.
 
 In Micro.blog, you can @-mention another web site even if that user does not have a Micro.blog account. Starting a post with `@yourdomain.com` will send a Webmention to the target web site's home page. Likewise, external web sites can send Webmentions to blog posts that appear on Micro.blog.
+
+### Sending replies manually
+
+When you use Micro.blog’s built-in reply feature, Micro.blog handles sending the Webmention for you. But what if you want to reply to someone’s blog post that isn’t included in the Micro.blog timeline already, so there is no reply link?
+
+To construct a reply, use Microformats `u-in-reply-to` with an HTML link:
+
+	Great post <a href="..." class="u-in-reply-to">on this blog</a>. Really enjoyed it.
+
+When Micro.blog sees your post, it will automatically notice the `u-in-reply-to` class and send a Webmention for you, handling all the discovery for the external blog.
+
+If you’re not using Micro.blog, the HTML will be the same, but you’ll want to have another process to discover the Webmention endpoint and send the ping.
 
 ### WordPress comments
 

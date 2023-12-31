@@ -6,11 +6,11 @@ We have a blog at our own domain name. We include Microformats in our web pages.
 
 All of these help give our blog resilience, but it’s not enough. We also need a plan for backups and portability, for when we inevitably do need to migrate to a new platform.
 
-[In the 449-page report][2] by the U.S. house judiciary subcommittee on antitrust, they recognized the importance of data portability to balance the dominance of tech companies like Facebook. The section of the report on potential remedies covers the high switching costs for users, depressing competition unless portability is required:
+[In the 449-page report][2] by the U.S. house judiciary subcommittee on antitrust, they recognized the importance of data portability to balance the dominance of tech companies like Facebook. The section of the report on potential remedies covers the high switching costs for users, suppressing competition unless portability is required:
 
 > Data portability is also a remedy for high costs associated with leaving a dominant platform. These costs present another barrier to entry for competitors and a barrier to exit for consumers. Dominant platforms can maintain market power in part because consumers experience significant frictions when moving to a new product. Users contribute data to a platform, for example, but can find it hard to migrate that data to a rival platform. The difficulty of switching tends to keep users on incumbent platforms. 
 
-Platforms like Twitter, Facebook, and Medium offer data export, but all in a different format. And even more open blogging platforms do not have a standard interchange format.
+Platforms like Twitter, Facebook, and Medium offer data export, but each in a different format. And even more open blogging platforms do not have a standard interchange format.
 
 As I’ve been improving the import and export functionality in Micro.blog, I’ve done a lot of work with WordPress’s WXR format, which is based on RSS. Because it’s just an XML file, it contains only the content on a blog that can be represented as text. Any uploaded photos are not included in WXR.
 

@@ -18,6 +18,8 @@ To my mom, thanks for setting me on the path that decades later would lead me he
 
 To my friends and beta testers, thanks for checking out Micro.blog even before it had its final name, and for your feedback in Slack and email.
 
+To my blog readers and podcast listeners who read the first published draft, you caught many typos and awkward grammar that I would’ve missed. The detailed editing notes from Nick Radcliffe were especially invaluable.
+
 To the IndieWeb community, the work you all have been doing for so many years is an inspiration. I'm so glad that Micro.blog can play a part.
 
 To Jean, thanks for wanting to be such a big part of Micro.blog from the beginning. From your leadership in the Micro.blog community to our discussions of platform features, Micro.blog would be missing something important without you.

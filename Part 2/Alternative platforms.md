@@ -42,23 +42,23 @@ Write.as shares many of the same principles as Micro.blog. It has a clean, clutt
 
 > Build a home from your writing, away from walled gardens and locked-down platforms.
 
-The pricing of Write.as is comparable to Micro.blog and the focus is around writing. There are plans for teams, but it’s about personal blogs first.
+The pricing of Write.as is comparable to Micro.blog and the focus is around writing. There are plans for teams, but it’s about personal blogs first. It also supports ActivityPub and the fediverse.
 
 **Jekyll**
 
-Jekyll is a static-site generator that is well-supported by GitHub. You write new blog post as text files with Markdown. After checking the text files in to a repository for your blog, GitHub Pages automatically generates the HTML and serves your blog for free. It also includes support for custom domain names.
+Jekyll is a static-site generator that is well supported by GitHub. You write new blog posts as text files with Markdown. After checking the text files into a repository for your blog, GitHub Pages automatically generates the HTML and serves your blog for free. It also includes support for custom domain names.
 
 If you want to get started with a blank single-page web site, the IndieWeb also has the [blank-gh-site][4] repository that you can clone.
 
 **The challenge with static sites**
 
-Before WordPress took off, Movable Type was one of the most popular blogging platforms. It provided a web interface for managing posts but then generated static HTML pages that were served directly without needing a server-side scripting language. Serving static HTML pages is fast and portable to many different platforms with few dependencies.
+Before WordPress took off, Movable Type was one of the most popular blogging platforms. It provided a web interface for managing posts but then generated static HTML pages that were served directly, without needing a server-side scripting language. Serving static HTML pages is fast and portable to many different platforms with few dependencies.
 
 Today's static-site generators take out the web interface and focus purely on building a series of HTML pages based on source files, usually written in Markdown. They have the performance advantages of being served directly by Apache or Nginx, but require running a script on your own computer instead of posting with other apps via an API. This makes posting from multiple computers or mobile devices more difficult.
 
-Micropub is an IndieWeb posting API that we cover in part 3. There are [open source projects][5] that attempt to work around the limitation of static-site generators by providing a Micropub API proxy. This makes API endpoints available for apps such as Micro.blog to call to, and then turns those requests into files that are checked in to GitHub for your static site.
+Micropub is an IndieWeb posting API that we cover in Part 3. There are [open source projects][5] that attempt to work around the limitation of static-site generators by providing a Micropub API proxy. This makes API endpoints available for apps such as Micro.blog to call, and then turns those requests into files that are checked in to GitHub for your static site.
 
-Static sites are by their definition not _dynamic_, and so not well-suited to get started with integrating APIs that need to process incoming web requests such as posting or comments. Micro.blog is powered by the static-site generator Hugo under-the-hood, but Micro.blog provides a layer on top that takes care of everything you need. If you’re rolling your own web site instead of using Micro.blog or WordPress, be prepared to jump through some hoops to get everything working.
+Static sites are by their definition not _dynamic_, and so not well-suited to get started with integrating APIs that need to process incoming web requests such as posting or comments. Micro.blog is powered by the static-site generator Hugo under the hood, but Micro.blog provides a layer on top that takes care of everything you need. If you’re rolling your own web site instead of using Micro.blog or WordPress, be prepared to jump through some hoops to get everything working.
 
 [1]:	https://twitter.com/jack/status/1518772756069773313
 [2]:	https://ghost.org

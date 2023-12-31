@@ -12,7 +12,7 @@ None of these suggestions are strictly necessary for microblogging with RSS, tho
 
 Instead of adding things to RSS, we should be taking away — simplifying the required elements to make feeds more readable and consistent.
 
-This chapter is my proposal for a bit of housekeeping around microblogging. It’s not a new format. It’s just a guide for producing the best RSS. I’ve divided this proposal into 3 sections below.
+This chapter is my proposal for a bit of housekeeping around microblogging. It’s not a new format. It’s just a guide for producing the best RSS. I’ve divided this proposal into three sections below.
 
 **Minimum viable elements**
 
@@ -51,19 +51,31 @@ From the RSS spec:
 
 > All elements of an item are optional, however at least one of title or description must be present.
 
+Dave Winer followed up on this issue [in a blog post in 2022][3], encouraging feed authors and client developers to handle title-less items correctly. About some clients adding a “no title” disclaimer:
+
+> The first item has a [no title] message where a title would go. Why? Look at it from the human reader point of view. What information does that convey, above what the writer was saying, in bigger type and in bold. **NO TITLE.** I don't know about you but to me that looks like criticism, an error message, from the software to the person who wrote the post.
+
+Leaving the title off or blank is not an error. Short, microblog posts do not have titles, and adding one would be wrong.
+
 RSS readers must be prepared for a title-less RSS item. If you're building a feed reader, instead of inserting “Untitled” as the placeholder title, think about how your reading UI can accommodate microblog posts gracefully. Blank titles (where the title exists but is an empty string) are equivalent to a completely missing title element.
 
 **HTML post text**
 
 The description XML element in RSS wasn’t originally intended to support HTML. It was often a text summary or opening paragraph of an article, rather than the full text. With microblogging, you always want the full text inside the RSS feed, including any styled text or inline HTML links.
 
-Some feeds will include the plain text version of a post in the description element, and the HTML version in a `content:encoded` element, as specified by [this RSS namespace extension][3]. This should be avoided in favor of a single `description` element with the full HTML, using CDATA syntax to avoid escaping characters:
+Some feeds will include the plain text version of a post in the description element, and the HTML version in a `content:encoded` element, as specified by [this RSS namespace extension][4]. This should be avoided in favor of a single `description` element with the full HTML, using CDATA syntax to avoid escaping characters:
 
 	<description><![CDATA[
 	  <p>Hello world.</p>
 	]]></description>
 
-In modern apps, rendering simple HTML is common. If an RSS reader can’t show HTML, it should strip out the HTML tags itself. It’s not up to the feed to provide multiple versions. If both `description` and `content:encoded` are present in a feed while parsing, for compatibility it’s acceptable to prefer whichever includes HTML.
+In modern apps, rendering simple HTML is common. Bold, italics, and inline links can be supported in a wide range of apps. In 2023, Dave Winer attempted to wrap up many of these basic microblogging principles under the term [textcasting][5] — using the same RSS-based format as podcasting, applied to text and social media. On styling, he wrote:
+
+> Simple styling, bold and italic. Don't overdo it, but sometimes you want to emphasize a word. It's part of how we speak, so it should be reflected in our writing.
+
+Styling and links are a fundamental part of the web. If an RSS reader can’t show HTML, it should strip out the HTML tags itself. It’s not up to the feed to provide multiple versions. If both `description` and `content:encoded` are present in a feed while parsing, for compatibility it’s acceptable to prefer whichever includes HTML.
 
 [1]:	http://scripting.com/stories/2012/03/27/rssForMicroblogging.html
-[3]:	http://purl.org/rss/1.0/modules/content/
+[3]:	http://scripting.com/2022/12/08/141610.html
+[4]:	http://purl.org/rss/1.0/modules/content/
+[5]:	http://textcasting.org

@@ -58,7 +58,7 @@ The IndieWeb had already laid the foundation. There are significant new parts of
 
 But there are certain areas where we diverge slightly. Micro.blog makes heavy use of JSON Feed, for example, while the IndieWeb often prefers a JSON representation of Microformats. The IndieWeb also documents many post types — RSVPs and check-ins — that are not strictly needed for microblogging.
 
-Indie microblogging and the IndieWeb are complementary. We share the same priorities. I've helped organize 3 IndieWebCamps in Austin and regularly try to promote standards coming out of the IndieWeb.
+Indie microblogging and the IndieWeb are complementary. We share the same priorities. I've helped organize three IndieWebCamps in Austin and regularly try to promote standards coming out of the IndieWeb.
 
 ---- 
 

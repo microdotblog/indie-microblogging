@@ -52,6 +52,10 @@ When you have your photo blog set up, there are a variety of different apps and 
 
 Other options for sending photos to Micro.blog include posting them to a WordPress blog, so that Micro.blog will see them when it downloads your WordPress feed, and using Micropub API-based apps like [Quill][6].
 
+---- 
+
+With the canonical version of your photos on your blog, you can still think about how to share those photos out to other networks. In addition to the usual cross-posting services like Mastodon and Tumblr, Micro.blog has special support for cross-posting photos to Flickr and Pixelfed.
+
 [1]:	https://micro.blog/
 [2]:	https://www.instagram.com/download/request/
 [3]:	http://help.micro.blog/2017/mac-version/

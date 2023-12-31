@@ -42,9 +42,17 @@ There are also social networks that push the distribution even further, to more 
 
 > …it works by not one company or database holding all the information, but it’s spread out and held by all your friends, and each of our computers.
 
+Nostr likewise has no centralized server, instead relying on a series of relay servers. Posts are copied to multiple servers, and clients will sync up with whatever servers they are configured to connect to. As long as your post is still stored on at least one relay server, it can be found and available to followers.
+
+Nostr uses WebSockets, a protocol built on top of HTTP for web clients to have a persistent connection to servers, allowing them to get real-time notifications when a new post appears without occasionally polling the server.
+
+But Scuttlebutt and Nostr are a bit on the fringe of social networks. New, fully distributed protocols are hard for people to wrap their head around. The decentralized project that has managed to wrap all the right pieces together is Mastodon.
+
 Mastodon is the most popular decentralized social network. In a way, it's not unlike those early Usenet systems of mirroring files. When you post on Mastodon, your post is copied to other Mastodon instances so that it's available to followers on other instances. Mastodon is powered by the ActivityPub protocol that is used to communicate between Mastodon servers.
 
-It's okay to have some number of centralized platforms. Micro.blog itself mixes centralized elements — a single place to start your blog and follow blogs in a timeline — with the inherent distribution of domain names. It then layers on federation by being compatible with Mastodon.
+There has been so much traction with Mastodon and ActivityPub that in the coming years we should expect even much larger platforms to adopt it. Flipboard and Meta’s Threads both started experimenting with ActivityPub support in late 2023.
+
+It's okay to have some number of centralized platforms, although for indie microblogging we should always prefer small platforms. Micro.blog itself mixes centralized elements — a single place to start your blog and follow blogs in a timeline — with the inherent distribution of domain names. It then layers on federation by being compatible with Mastodon.
 
 [1]:	https://www.almanacnews.com/morgue/2000/2000_10_11.taylor.html
 [2]:	https://www.relay.fm/presentable/78

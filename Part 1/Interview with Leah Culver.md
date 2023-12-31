@@ -4,7 +4,7 @@ The more I revisited the early platforms of 2005-2010, before Twitter and Facebo
 
 Leah Culver was the co-founder of Pownce along with Kevin Rose and Daniel Burka. She talked to me about those early days in an interview in late 2019, with the new perspective of everything that has happened to the web over a decade after releasing Pownce.
 
-This is an edited version of the full interview. In the few years since this interview took place, Leah has sold her podcast company Breaker to Twitter and joined Twitter’s Spaces team, working on live audio conversations.
+This is an edited version of the full interview. In the few years since this interview took place, Leah had sold her podcast company Breaker to Twitter and joined Twitter’s Spaces team, working on live audio conversations, before leaving the company during one of the Elon Musk-initiated layoffs.
 
 **Manton:** I know it's been a while since Pownce. 2007? You kind of started the project on your own, or how did it get started and how did you bring other people in?
 
@@ -30,7 +30,7 @@ This is an edited version of the full interview. In the few years since this int
 
 **Leah:** I don't feel like we missed mobile, but it was very early. So I don't think people were really using mobile apps the way that we do now. What was really fun is like we got to pioneer some mobile things. So I got a chance to work on OAuth and oEmbed, two specifications — it's still around, or at least their influence is still quite heavy. One of the really fun things was Mike Malone, who was our iOS engineer who built most of our iOS app, worked on the system to app-switch to log in. So every time an app is like "log in with Facebook or Twitter" and you switch over to the Facebook app and back and he sort of pioneered — that was like his innovation using sort of the protocols, so registering the protocol to do that callback, which was really cool. So there's still stuff today that I'm like, "Oh, yeah, we invented that." Which is really cool. 
 
-**Manton:** Yeah, and so you you were involved in OAuth, the spec coming basically right around the same time I guess. It must have been an early — because I think 1.0 was even a little bit after.
+**Manton:** Yeah, and so you were involved in OAuth, the spec coming basically right around the same time I guess. It must have been an early — because I think 1.0 was even a little bit after.
 
 **Leah:** No, it was around the same time. So OAuth 1.0 was actually earlier than iPhone apps. So I think that was probably 2007, and it was a collaboration between myself and a bunch of other authors, but most notably folks from Twitter and...
 

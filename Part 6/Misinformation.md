@@ -74,6 +74,16 @@ We are a very small team and we're not going to get everything right, but I'm co
 
 ---- 
 
+It’s okay to be wrong on the internet. As long as it’s within the law and not hurting anyone. As long as it’s not amplified to a larger audience.
+
+If everything is a social network with trends and algorithms, there would be no place to be wrong because being wrong on social risks spreading misinformation. We need quieter spaces too, corners of the internet where there’s just a simple web page with bad ideas that no one links to.
+
+Perhaps we lose something when everything is moderated at the same level. When everything is sanitized and politically correct.
+
+This is at the heart of Micro.blog’s effort to combine both blog hosting and a social timeline. Each half of the platform has its own purpose and its own requirements for moderation. On the social side, there’s less tolerance for being a jerk or harassing others. On the open web hosting side, there’s more freedom to yell into the void.
+
+---- 
+
 Instagram is not immune to misinformation. In June 2019, an Instagram account named "Sudan Meal Project" promised to give a meal to starving Sudanese children when the account was followed or shared. It amassed hundreds of thousands of followers before everyone realized it was fake.
 
 Taylor Lorenz [wrote for The Atlantic][12] about dozens of similar fake accounts, all making promises they can't keep and spreading "facts" about Sudan that were not even accurate:

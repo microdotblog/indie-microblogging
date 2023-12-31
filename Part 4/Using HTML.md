@@ -6,7 +6,7 @@ The most misunderstood part about Micro.blog is that it's primarily a Twitter re
 
 Indie microblog posts are just blog posts. They may have more limitations — no title, shorter text, and usually simpler formatting — but they still use HTML like any blog post.
 
-We should avoid special formats that require new clients to be written. By using HTML for indie microblog posts, blog posts work consistency on the web, in feed readers, and when writing a new post from a blog editor.
+We should avoid special formats that require new clients to be written. By using HTML for indie microblog posts, blog posts work consistently on the web, in feed readers, and when writing a new post from a blog editor.
 
 By contrast, tweets are effectively stored as plain text. Twitter parses the text and stores extra metadata for it, such as keeping track of where @-mentions and links are.
 
@@ -120,11 +120,26 @@ When cross-posting from your blog to other services, Micro.blog checks the width
 
 When writing longer blog posts with multiple photos in apps like Sunlit, the app is responsible for first uploading all the photos, then creating the full HTML for the post with references to the uploaded photos.
 
+### Quotes
+
+Since the first official standard for HTML — HTML 2.0 in 1995 — we have had the `blockquote` tag. This is used to wrap around a quote from someone you are linking to. If your microblog post format supports basic HTML tags, you can use `blockquote` rather than inventing a new format for retweet-style posts.
+
+It then becomes a UI problem of how best to create and display quotes, not a format or protocol problem. Every platform can have its own approach to creating quotes. Micro.blog has a mostly hands-off approach, letting you use Markdown to create quotes like this:
+
+	Great line from a book I'm reading:
+	
+	> Cups were filled and refilled, making you drunk with the illusion of changing the world.
+
+Micro.blog uses block quotes for its “Embed” link on posts in the timeline. This copies some HTML to your system clipboard for pasting into a new post, using [Quotebacks][3] to style the post so that it looks nice.
+
+Platforms that invent their own format for retweet-style quotes may have other incentives. By formalizing a quote as its own distinct type of post, they can measure the reach of a quote. On Twitter, quotes are treated very similarly to retweets. On Mastodon, after initial reluctance to have a quotes feature, there has been pressure from the influx of Twitter users to Mastodon to also adopt quotes.
+
 ---- 
 
 Using HTML helps decouple content from platforms. Twitter, Instagram, and Snapchat would love everyone to post content in those platforms’ format, because then native ads which are the same size as your own content can be inserted into the platform’s dynamic feed. Posting content as HTML to your own site lets the content be readable in a variety of services based on the open web, from pages at your own domain name, to feed readers or newsletters.
 
 [1]:	https://html.spec.whatwg.org/multipage/
 [2]:	https://daringfireball.net/projects/markdown/
+[3]:	https://quotebacks.net
 
 [image-1]:	https://book.micro.blog/uploads/2020/c6af49b770.png

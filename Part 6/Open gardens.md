@@ -46,6 +46,12 @@ Twitter has likewise created an environment that ties their hands on curation, w
 
 The open garden solves this problem. It's the same web inside a platform like Micro.blog as on the rest of the internet. By adopting open standards but also drawing a line across which we can apply community rules, it's possible to build features that protect users.
 
+Even the bigger platforms are starting to realize this. Adam Mosseri, head of Instagram, [talked about the added flexibility from open standards like ActivityPub][6] when a user leaves or is de-platformed from Threads:
+
+> If you’re wondering why this matters, here’s a reason: you may one day end up leaving Threads, or, hopefully not, end up de-platformed. If that ever happens, you should be able to take your audience with you to another server. Being open can enable that.
+
+And with blogs we can go further than taking your followers with you, as Mastodon supports with account migration, by also allowing posts and your identity to move between platforms.
+
 By encouraging the use of personal domain names, when Micro.blog does need to ask a member of the community to leave for violating our guidelines, that blogger can take their domain name and content with them, continuing to post to their own blog but blocked from interfering with the community. The curators of the platform have more freedom to block harassing posts because those problematic users can retreat to their own web site and leave everyone else in the community alone.
 
 To summarize:
@@ -60,3 +66,4 @@ This is only possible by embracing the open web. I believe it's an important par
 [3]:	https://medium.com/@monteiro/merry-last-christmas-jack-dorsey-59f82c06f02b
 [4]:	http://www.manton.org/2014/02/ending_the_app.html
 [5]:	https://seths.blog/2019/07/surrendering-curation-and-promotion/
+[6]:	https://techcrunch.com/2023/07/05/adam-mosseri-says-metas-threads-app-wont-have-activitypub-support-at-launch/

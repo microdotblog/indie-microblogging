@@ -48,7 +48,7 @@ When Google Reader shut down, there was no migration plan to other RSS readers. 
 
 A common API didn’t happen. Instead, we do have a few popular feed reader platforms like Feedbin and Feedly that tried to fill the void. Apps like NetNewsWire and Reeder have been updated to support multiple APIs.
 
-This modern feed sync ecosystem might be more healthy than one dominated by a single player, but it created friction and doubt in what people should move to. It was easier to just use Twitter and convince yourself you weren’t missing anything from RSS feeds.
+This modern feed sync ecosystem might be healthier than one dominated by a single player, but it created friction and doubt in what people should move to. It was easier to just use Twitter and convince yourself you weren’t missing anything from RSS feeds.
 
 Blogs survived in the background because they were still a better fit for people who wanted to own their content, carving out a little space for themselves on the web. The death of Google Reader was a reminder to indie-minded bloggers that ad-based platforms had advertisers as customers, not users.
 

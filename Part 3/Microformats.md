@@ -62,7 +62,7 @@ There are also semantics built into HTML 5. Elements like `<time>` and `<section
 
 It's usually the simple formats that have the best chance to succeed.
 
-Microformats is a way to add metadata to a simple web page without creating a new format. The metadata is in the HTML itself instead of alongside it. It doesn't attempt to be as comprehensive as RDF, and so because of its simplicity it's lightweight enough to add directly to HTML.
+Microformats provide a way to add metadata to a simple web page without creating a new format. The metadata is in the HTML itself instead of alongside it. It doesn't attempt to be as comprehensive as RDF, and so because of its simplicity it's lightweight enough to add directly to HTML.
 
 It also fulfills a core IndieWeb principle to prioritize what people actually see. From the IndieWeb's [principles page][14]:
 
@@ -70,7 +70,7 @@ It also fulfills a core IndieWeb principle to prioritize what people actually se
 
 Don't repeat yourself. Don't recreate all of the text that is already in the HTML, duplicating it in a separate RDF file just so that new metadata can be added to it.
 
-Microformats actually predates IndieWebCamp by several years. You can trace it back to 2003 and the introduction of XFN, the [XHTML Friends Network][16], by Tantek Çelik, Matt Mullenweg, and Eric Meyer. XFN used simple attributes on blogrolls — lists on your site of other blogs you liked to read — to describe your relationship to those bloggers. Each link’s `rel` attribute was set for whether that person was a friend, acquaintance, co-worker, or someone you had met:
+Microformats actually predate IndieWebCamp by several years. You can trace it back to 2003 and the introduction of XFN, the [XHTML Friends Network][16], by Tantek Çelik, Matt Mullenweg, and Eric Meyer. XFN used simple attributes on blogrolls — lists on your site of other blogs you liked to read — to describe your relationship to those bloggers. Each link’s `rel` attribute was set for whether that person was a friend, acquaintance, co-worker, or someone you had met:
 
 	<a href="https://anotherdomain.com/“ rel="met acquaintance">Someone</a>
 
@@ -189,7 +189,7 @@ These tools can help check the Microformats in your web pages:
 
 It often takes just minutes to sprinkle some Microformats classes into your web pages. Start on your home page, so that your profile information is available to other IndieWeb apps, and then add Microformats markup around your posts too. Some basic support of Microformats will be important when integrating with other IndieWeb building blocks like Webmention.
 
-[1]:	http://files.manton.org/archive/idiom/mactivity%5C_presentation/
+[1]:	https://www.manton.org/archive/idiom/mactivity_presentation/
 [2]:	https://en.wikipedia.org/wiki/Meta_Content_Framework
 [3]:	https://www.w3.org/RDF/
 [4]:	http://www.aaronsw.com/2002/cctalk

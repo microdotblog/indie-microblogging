@@ -18,7 +18,7 @@ When I announced Tweet Marker in 2012, there was a vibrant Twitter developer eco
 
 ![][image-1]
 
-In one corner of the chart were the apps Twitter wanted to see. In another corner were the apps they didn't care about, which included some of my favorites. Twitter blogged:
+In one corner of the chart were the apps Twitter wanted to see: business and analytics apps. In another corner were the apps they didn't care about: traditional clients, often the primary interface that people used to access Twitter on iOS and Android . Twitter blogged:
 
 > That upper-right quadrant also includes, of course, "traditional" Twitter clients like Tweetbot and Echofon. Nearly eighteen months ago, we gave developers guidance that they should not build client apps that mimic or reproduce the mainstream Twitter consumer client experience. And to reiterate what I wrote in my last post, that guidance continues to apply today.
 
@@ -34,13 +34,13 @@ Buzz said in a [tweet][4]:
 
 Removing RSS feeds followed the same playbook. There used to be RSS feeds from Twitter for reading a user’s timeline. Without feeds and without open access to the API, Twitter could make the official apps the prominent way to use Twitter, driving up engagement and ad revenue.
 
-[An email from Ryan Sarver][5] showed part of how Twitter was changing as a company, refocusing from building a network to selling a product. Reading between the lines, it seems that to effectively sell ads, Twitter felt they need to control the user experience. On Twitter clients:
+[An email from Ryan Sarver][5] showed part of how Twitter was changing as a company, refocusing from building a network to selling a product. Reading between the lines, it seems that to effectively sell ads, Twitter felt they needed to control the user experience. On Twitter clients:
 
 > Developers have told us that they'd like more guidance from us about the best opportunities to build on Twitter. More specifically, developers ask us if they should build client apps that mimic or reproduce the mainstream Twitter consumer client experience. The answer is no.
 
 Then over the weekend, [Ryan clarified][6]: “we are saying it’s not a good business to be in but we aren’t shutting them off or telling devs they can’t build them.”
 
-IFTTT — If This, Then That — was a popular way to connect different platforms together, and it depended on open APIs. IFTTT was a useful tool that helped people do more with Twitter, even if they weren't developers. Turning off IFTTT support was the last straw for me personally because the decision seemed to incapsulate everything that was wrong about Twitter's direction.
+IFTTT — If This, Then That — was a popular way to connect different platforms together, and it depended on open APIs. IFTTT was a useful tool that helped people do more with Twitter, even if they weren't developers. Turning off IFTTT support was the last straw for me personally because the decision seemed to encapsulate everything that was wrong about Twitter's direction.
 
 [Matthew Panzarino wrote at The Next Web][7] about how IFTTT removal was a “red alert” to developers:
 
@@ -56,11 +56,11 @@ Meanwhile, Twitter had gone mainstream. Alex Payne had left the company and Twit
 
 The unique tragedy with Twitter’s changing attitude toward developers is that so many of Twitter’s early innovations [did come from third-party developers][9]. The word tweet, the first use of a bird icon, and even the character counter started in Twitterrific. Twitter's new leadership displayed an incredible disrespect for the value developers added to both the ecosystem and core platform.
 
-So I stopped posting to Twitter. It was many things. The limits on user auth tokens, which had already killed a few popular third-party Twitter apps; the problems with shutting down IFTTT recipes; the guidelines that restricted how you could use your own tweets.
+So I stopped posting to Twitter in 2012. It was many things. The limits on user auth tokens, which had already killed a few popular third-party Twitter apps; the problems with shutting down IFTTT recipes; the guidelines that restricted how you could use your own tweets.
 
 I knew leaving would be difficult, so I set up a series of posts to discourage my future self from ever joining again. My final tweets were timed to go out on the anniversary of Steve Jobs’s death. They’re a collected moment, a tribute to both Steve and how great Twitter could be. I like that they’re forever pinned at the top of my profile page.
 
-My last tweet was both a goodbye and a memory of what had made Twitter special. I wanted to highlight the good parts of Twitter because there were so many people causing trouble on the platform. For every beautiful tweet, there was hate and harassment and negative tweets and sarcasm and snark.
+Years later, when others would leave Twitter because of the chaos caused by Elon Musk’s acquisition, and finally his decision to shut down third-party Twitter apps, some people would tweet their final goodbyes capturing all of that rage and frustration. My last tweet wasn’t like that. It was both a goodbye and a memory of what had made Twitter special. I wanted to highlight the good parts of Twitter because there were so many people causing trouble on the platform. For every beautiful tweet, there was hate and harassment and negative tweets and sarcasm and snark.
 
 Overlapping the developer-hostile attitude was a growing realization that Twitter was overwhelmed with managing the community. Hate and harassment spread mostly unchecked. Something about the short, 140-character posts seemed to bring out the worst in people. (I'll cover community and replies in more detail in part 5.)
 
@@ -74,7 +74,31 @@ With the API more limited, there was less incentive to build fun tools that work
 
 It had taken nearly 6 years, but it felt like [2018’s API changes][14] finally wrapped up the work that started in 2012. The apps that are possible with the new Account Activity API are exactly the apps that were encouraged in those other quadrants. The pricing made no sense because it wasn’t designed for traditional Twitter apps like Twitterrific and Tweetbot.
 
-Twitter’s history has been tumultuous. Jack Dorsey as CEO was out, then back in. The API was open, then closed, then more open again. And all through it, Twitter’s features haven’t changed much until recently.
+Twitter’s history has been tumultuous. Jack Dorsey as CEO was out, then back in. The API was open, then closed, then more open again. And all through it, Twitter’s features hadn’t changed much until recently.
+
+---- 
+
+Then In 2022, Elon Musk bought Twitter. Massive layouts followed, leaving very few people to manage the API. There was a series of mishandled feature rollouts. Native third-party apps were completely cut off from the Twitter API, and even basic API access was moved to paid plans.
+
+[Dave Winer blogged][15] about the Twitter API changes:
+
+> Corporate platforms always fail, given enough time. The Twitter API had a good run. Now the deck is clear, and there’s room to make some new stuff, or just take a break and smell the roses a bit, or go for a bike ride. 🤪
+
+In the long run, the open web will be better off without Twitter. There is renewed interest in decentralization.
+
+Many people blamed Elon Musk, and it became a convenient narrative to assign any failure to his leadership. The problems had started much earlier, though. Ben Thompson discussed this [on the Sharp Tech podcast][16]:
+
+> Part of the irony of everyone getting upset about Elon Musk killing all the third-party Twitter apps is that that’s what Twitter’s management should have done a decade ago. If you’re going to go in that direction, go in that direction. Instead they didn’t have the guts to sort of follow through in their strategic decision to its logical endpoint.
+
+I stopped posting to Twitter in 2012 exactly because of this strategy. Elon had greatly accelerated what was already the path for Twitter fading into silo irrelevance. I wish I could come up with a less violent analogy, but what comes to mind is Twitter leadership in 2012 loading the gun and pointing it at third-party apps, but it wasn’t until 2023 that anyone pulled the trigger.
+
+Elon deservedly gets most of the blame for Twitter’s recent chaos. But Twitter wasn’t going to last forever under any version of its clown car leadership over the last decade. In the long run, we will be thankful that Elon is effectively putting the company out of its misery. We’re going to see innovation on the open web as third-party developers realize they are the ones who have actually been given new life.
+
+And people are realizing that as unimaginable as it first seemed to not use Twitter, once you cut it out of your life it’s fine. Other networks like Mastodon and Threads take its place, or private chats with friends, or other hobbies. Robin Sloan [captured this beautifully][17]:
+
+> The speed with which Twitter recedes in your mind will shock you. Like a demon from a folktale, the kind that only gains power when you invite it into your home, the platform melts like mist when that invitation is rescinded.
+
+Even the name itself and the bird branding are gone. The letter X feels like an appropriate placeholder for the platform’s grave. Here lies a dying platform. X marks the spot where it used to be.
 
 The Twitter founders had stumbled onto something world-changing. The momentum of a unique idea carried them for years, even flawed, even as they lost their way. For indie microblogging to succeed, we must be more thoughtful and deliberate about the future.
 
@@ -92,5 +116,8 @@ The Twitter founders had stumbled onto something world-changing. The momentum of
 [12]:	https://developer.twitter.com/en/docs/tweets/timelines/api-reference/get-statuses-home_timeline.html
 [13]:	https://favstar.fm/pro
 [14]:	https://www.macstories.net/news/twitter-announces-new-end-of-life-date-for-apis-and-pricing-that-affects-third-party-apps/
+[15]:	https://dave.micro.blog/2023/04/15/developer-response-to.html
+[16]:	https://sharptech.fm/member/episode/clown-car-history-lessons-both-sides-of-the-twitter-substack-fight-parenthood-tech-strategies
+[17]:	https://www.robinsloan.com/lab/lost-thread/
 
 [image-1]:	https://book.micro.blog/uploads/2019/6b980c7c4e.png

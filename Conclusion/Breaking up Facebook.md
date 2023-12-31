@@ -46,9 +46,21 @@ The good news: it's up to us. We can choose to reject these platforms and move t
 
 ---- 
 
+There’s precedence for this. When Elon Musk took over at Twitter, he made a series of decisions that upset users. Laying off many employees, bringing back Trump and right-wing users who were banned, suspending accounts with seeming randomness, and preventing linking to other social networks all built into a narrative of an impulse, visionless CEO who was running Twitter into the ground.
+
+Mastodon and other ActivityPub-based platforms like Micro.blog were already growing. There was a growing sense that any new platform needed to at least make some attempt at openness, because that’s what users wanted. The growth of Mastodon as Twitter stumbled under Elon Musk was a clear sign that users wanted choice and decentralization was part of that.
+
+Adam Mosseri, the head of Instagram, acknowledged that industry trend [with the launch of Meta’s Threads][10], a Twitter-like platform based on existing Instagram accounts:
+
+> I do think that decentralization, but more specifically — or more broadly — more open systems are where the industry is getting pulled and is going to go over time. And for us, a new app offers us an opportunity to meaningful participate in that space, in the way that it would be very difficult to port an incredibly large app like Instagram over, and so to lean into where the industry is going.
+
+The industry is going that way because users are slowly forcing it to go that way. We have the kind of leverage that can move Facebook should we choose to make it a priority.
+
+---- 
+
 Power corrupts. For social networks, the corruption is not necessarily because of unethical human behavior but because the very concentration of power inherent in massive centralized social networks means platforms can be exploited. They also lean away from interoperability, reinforcing existing monopolies.
 
-[In late 2019 it was revealed][10] that Twitter employees were using their access to the platform to steal private user data and hand it to Saudi Arabia. They targeted Twitter because of Twitter's size. There are so many people are on Twitter, exploiting the platform will give them access to more private data than a smaller social network with fewer users.
+[In late 2019 it was revealed][11] that Twitter employees were using their access to the platform to steal private user data and hand it to Saudi Arabia. They targeted Twitter because of Twitter's size. There are so many people are on Twitter, exploiting the platform will give them access to more private data than a smaller social network with fewer users.
 
 United States attorney David Anderson said:
 
@@ -58,7 +70,7 @@ Because of Twitter's size and centralized nature, one hack (or internal spying) 
 
 A more distributed web would limit how many accounts could be hacked with a single exploit. Instead of the hackers being able to send tweets as Barrack Obama, Jeff Bezos, Elon Musk, and many others all at once, if accounts were distributed across different web sites, maybe a hack would have only exploited a single account, limiting the damage.
 
-We accept network effects in today's social networks that give more power to the leading tech companies, ignoring earlier models on the internet that showed how competition can bring about change. [Cory Doctorow blogged for the EFF][11] about how despite Usenet's initial top-down structure, it allowed for an entire `alt.` sub-hierarchy under which content flourished, independent of centralized control:
+We accept network effects in today's social networks that give more power to the leading tech companies, ignoring earlier models on the internet that showed how competition can bring about change. [Cory Doctorow blogged for the EFF][12] about how despite Usenet's initial top-down structure, it allowed for an entire `alt.` sub-hierarchy under which content flourished, independent of centralized control:
 
 > If adversarial interoperability still enjoyed its alt.-era legal respectability, then Facebook alternatives like Diaspora could use their users' logins and passwords to fetch the Facebook messages the service had queued up for them and allow those users to reply to them from Diaspora, without being spied on by Facebook. Mastodon users could read and post to Twitter without touching Twitter's servers. Hundreds or thousands of services could spring up that allowed users different options to block harassment and bubble up interesting contributions from other users -- both those on the incumbent social media services, and the users of these new upstarts.
 
@@ -68,17 +80,17 @@ Many people go back to regulation, looking for answers, looking for a way to dra
 
 And there is some logic to this. Challenges in the courts have put pressure on big companies but have largely been unsuccessfully challenging the power of companies like Facebook with its social networks or Apple with its control over iOS app distribution. As shown in the Judge Yvonne Gonzalez Rogers’s ruling in Epic vs. Apple, while some changes can be forced by the courts for anticompetitive reasons, the antitrust laws were written too long ago to be relevant to today’s digital platforms.
 
-Instead, the power is chipped away in bits until it accelerates, as Basecamp co-founder [David Heinemeier Hansson noted][12] after testifying for the US House Antitrust Subcommittee:
+Instead, the power is chipped away in bits until it accelerates, as Basecamp co-founder [David Heinemeier Hansson noted][13] after testifying for the US House Antitrust Subcommittee:
 
 > But as the saying goes, change comes slowly then all at once. I believe we've just started that "all at once" phase with antitrust now. The past year has seen a tidal wave of investigations, hearings, reports, and testimony finally washing away the innocence of big tech. The monopoly question is no longer one of "are they/are they not", but about what should we do with the fact that they definitely are.
 
-Mark Zuckerberg himself had tried to get in front of this, seemingly asking for Facebook to be regulated. [Om Malik was skeptical][13]:
+Mark Zuckerberg himself had tried to get in front of this, seemingly asking for Facebook to be regulated. [Om Malik was skeptical][14]:
 
 > Facebook’s most egregious recent move is asking for regulation of the Internet. It is easy for them to ask for regulation, now that they have formed a cozy duopoly with Google that allows them to control citizen data and advertising dollars.
 
 While regulation has its place, it's not enough. We can't control what the government does, and most of us don't have the patience to wait. So let's focus on what we can do.
 
-And too often I think we'll be disappointed waiting. Nilay Patel wrote for The Verge [about the $1 billion fine][14] against Facebook by the FTC:
+And too often I think we'll be disappointed waiting. Nilay Patel wrote for The Verge [about the $1 billion fine][15] against Facebook by the FTC:
 
 > That’s actually the real problem here: fines and punishments are only effective when they provide negative consequences for bad behavior. But Facebook has done nothing but behave badly from inception, and it has only ever been slapped on the wrist by authority figures and rewarded by the market.
 
@@ -86,15 +98,15 @@ The fine was widely condemned as not adequate. But _no fine_ can solve the probl
 
 If everyone who criticized the $5 billion fine against Facebook as inadequate — while still posted to Instagram everyday — instead posted to their own site, we could make progress. Taking back our posts and photos is the best way to reduce Facebook’s power.
 
-Remember [Jeffrey Zeldman's article about venture capital][15]. To succeed as a venture-backed company, founders must have continued growth. They must forego early profits to grow as quickly as possible, only monetizing when they can leverage their scale. By design, they must be large companies. By design, the goal is millions of dollars in revenue, or even startup unicorns valued at $1 billion or more.
+Remember [Jeffrey Zeldman's article about venture capital][16]. To succeed as a venture-backed company, founders must have continued growth. They must forego early profits to grow as quickly as possible, only monetizing when they can leverage their scale. By design, they must be large companies. By design, the goal is millions of dollars in revenue, or even startup unicorns valued at $1 billion or more.
 
-Following Jeffrey's zarticle, [Ben Werdmuller had a great post][16] about how we shouldn't care so much about startup unicorns, using Micro.blog as an example of another type of business:
+Following Jeffrey's zarticle, [Ben Werdmuller had a great post][17] about how we shouldn't care so much about startup unicorns, using Micro.blog as an example of another type of business:
 
 > Zeldman looks to Micro.blog as a potential answer. It's a great company that could point to what a more general solution could look like, but not specifically because it works with the indieweb. Instead, it's worth examining how it's financially structured. Rather than a _unicorn_, it's a _zebra_.
 
 It would be great to have more small- and medium-sized companies that can move the web forward. Unlike monopolies, which are too powerful for the market to regulate, competition among small companies can benefit users. Small companies can innovate while still being grounded in somewhat boring business models. We need multiple social networks that interoperate via the web instead of just a couple of huge platforms.
 
-The replacement for Facebook can’t be another social media company. As Write.as founder Matt Baer wrote about in 2019, maybe the next thing [can’t be called social media at all][17]:
+The replacement for Facebook can’t be another social media company. As Write.as founder Matt Baer wrote about in 2019, maybe the next thing [can’t be called social media at all][18]:
 
 > We all know Facebook is terrible. This is common knowledge in 2019. But if we're ever going to replace it, we can't frame new solutions in terms of social media. Facebook and Twitter and Instagram and on and on **are** social media. They won that title. Any new entrant to the space that calls themselves that loses by default. So let's not use that title.
 
@@ -102,7 +114,7 @@ So-called Web3, for all its problem trying to reinvent distributed web identity,
 
 ---- 
 
-There's a difference between companies that are paid for directly by users and companies based on massive ad-based networks. Ben Thompson outlined this [in an article about regulation][18], arguing that the super-aggregators like Facebook require government intervention, where other companies that are better aligned with users' interests can be "regulated" by the market:
+There's a difference between companies that are paid for directly by users and companies based on massive ad-based networks. Ben Thompson outlined this [in an article about regulation][19], arguing that the super-aggregators like Facebook require government intervention, where other companies that are better aligned with users' interests can be "regulated" by the market:
 
 > I think, though, that platform providers that primarily monetize through advertising should be in their own category: as I noted above, because these platform providers separate monetization from content supply and consumption, there is no price or payment mechanism to incentivize them to be concerned with problematic content; in fact, the incentives of an advertising business drive them to focus on engagement, i.e. giving users what they want, no matter how noxious.
 
@@ -119,12 +131,13 @@ Some may call for Facebook to be broken up because it has too much power. But we
 [7]:	https://stratechery.com/2018/facebooks-motivations/
 [8]:	https://stratechery.com/2019/tech-and-liberty/
 [9]:	https://inessential.com/2019/10/29/you_choose
-[10]:	https://www.washingtonpost.com/national-security/former-twitter-employees-charged-with-spying-for-saudi-arabia-by-digging-into-the-accounts-of-kingdom-critics/2019/11/06/2e9593da-00a0-11ea-8bab-0fc209e065a8_story.html
-[11]:	https://www.eff.org/deeplinks/2019/11/altinteroperabilityadversarial
-[12]:	https://world.hey.com/dhh/antitrust-comes-slowly-then-all-at-once-5f5eb129
-[13]:	https://om.co/2019/05/07/which-is-it-big-tobacco-or-big-oil/
-[14]:	https://www.theverge.com/2019/7/12/20692524/facebook-five-billion-ftc-fine-embarrassing-joke
-[15]:	https://alistapart.com/article/nothing-fails-like-success/
-[16]:	https://werd.io/2019/fixing-the-financial-dilemma-at-the-heart-of-our-broken
-[17]:	https://write.as/matt/alternative-to-social-media
-[18]:	https://stratechery.com/2019/a-regulatory-framework-for-the-internet/
+[10]:	https://techcrunch.com/2023/07/05/adam-mosseri-says-metas-threads-app-wont-have-activitypub-support-at-launch/
+[11]:	https://www.washingtonpost.com/national-security/former-twitter-employees-charged-with-spying-for-saudi-arabia-by-digging-into-the-accounts-of-kingdom-critics/2019/11/06/2e9593da-00a0-11ea-8bab-0fc209e065a8_story.html
+[12]:	https://www.eff.org/deeplinks/2019/11/altinteroperabilityadversarial
+[13]:	https://world.hey.com/dhh/antitrust-comes-slowly-then-all-at-once-5f5eb129
+[14]:	https://om.co/2019/05/07/which-is-it-big-tobacco-or-big-oil/
+[15]:	https://www.theverge.com/2019/7/12/20692524/facebook-five-billion-ftc-fine-embarrassing-joke
+[16]:	https://alistapart.com/article/nothing-fails-like-success/
+[17]:	https://werd.io/2019/fixing-the-financial-dilemma-at-the-heart-of-our-broken
+[18]:	https://write.as/matt/alternative-to-social-media
+[19]:	https://stratechery.com/2019/a-regulatory-framework-for-the-internet/

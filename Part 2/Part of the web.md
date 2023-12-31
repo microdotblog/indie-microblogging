@@ -32,7 +32,7 @@ You can also follow blogs in the Micro.blog timeline, even if the blogger hasn't
 
 This feature is designed for blogs with a custom domain name. It assumes one blog, one user, one domain name, so it doesn't work to follow specific feed URLs yet. You'll still want a traditional RSS reader for sites that have multiple feeds.
 
-It's particularly well-suited to platforms like Tumblr where everyone gets a hostname in the format `username.tumblr.com` by default. You can follow any Tumblr user on Micro.blog by entering their `username.tumblr.com` hostname in Micro.blog's search field. Micro.blog finds their RSS feed and includes their posts, including photos, directly in the timeline.
+It's particularly well-suited to platforms like Tumblr where everyone gets a hostname in the format `username.tumblr.com` by default. You can follow any Tumblr user on Micro.blog by entering their `username.tumblr.com` hostname in Micro.blog's search field. Micro.blog finds their RSS feed and includes their posts, including photos, directly in the timeline. The same works for Bluesky usernames in the format `username.bsky.social`.
 
 [1]:	https://inessential.com/2018/02/01/why_micro_blog_is_not_another_app_net
 

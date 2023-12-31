@@ -24,7 +24,7 @@ Instagram was designed around making it easier to share photos of the experience
 
 There was an explosion in the quantity of photos being taken and shared online. With photos being shared to both friends and strangers, we think about the quality of the photo much differently than if we were just keeping the photo for ourselves or sharing it with family. We don't need to impress our family with the perfect shot.
 
-When Instagram was smaller, it might not have seemed much different than the Mirror Project, or Flickr. It was a way to upload photos and share them with friends. But instead of keeping that community feel, Instagram started to subtly shift to indirectly reward high-follower accounts: those people who had such a large audience that they had influence over the spending habits of their followers.
+When Instagram was smaller, it might not have seemed much different than the Mirror Project, or Flickr. It was a way to upload photos and share them with friends. But instead of keeping that community feel, Instagram started a subtle shift to reward high-follower accounts indirectly: those people who had such a large audience that they had influence over the spending habits of their followers.
 
 [Summer Bedard documented this shift][4] for Adjacent, a journal from the Tisch School of the Arts at NYU:
 

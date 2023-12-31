@@ -61,7 +61,7 @@ As XML-RPC was falling out of style, Roy Fielding coined the term "representatio
 
 Most of today's platforms follow a REST style, but there was no open blogging API proposed using REST. There was also a move away from XML, with most new APIs using JSON.
 
-WordPress still supports the XML-RPC API but has it's own, WordPress-specific JSON API. Silos like Twitter, Facebook, and Medium create their own platform-specific API, or no posting API at all. Enough years had passed that the IndieWeb community could now take a fresh look at blogging APIs, learning from past formats to create a new open API that wasn't tied to any platform.
+WordPress still supports the XML-RPC API but has its own, WordPress-specific JSON API. Silos like Twitter, Facebook, and Medium create their own platform-specific API, or no posting API at all. Enough years had passed that the IndieWeb community could now take a fresh look at blogging APIs, learning from past formats to create a new open API that wasn't tied to any platform.
 
 ### Intro to Micropub
 
@@ -70,7 +70,7 @@ Micropub is a W3C recommendation and Micro.blog's native posting API. In an effo
 * **Form-encoded.** The easiest way to get started and useful from any programming language or scripting tool.
 * **JSON.** With field names and structure based on conventions from Microformats.
 
-Unlike many REST-based APIs, Micropub uses a single URL endpoint with multiple parameters to specify actions such as editing or deleting an existing post. This makes it easier to "drop in" an implementation of Micropub into an existing web site or web application. This main endpoint is discovered by looking for a link tag in the blog's home page HTML:
+Unlike many REST-based APIs, Micropub uses a single URL endpoint with multiple parameters to specify actions such as editing or deleting an existing post. This makes it easier to drop an implementation of Micropub into an existing web site or web application. This main endpoint is discovered by looking for a link tag in the blog's home page HTML:
 
 	<link rel="micropub" href="https://micro.blog/micropub">
 
@@ -133,7 +133,7 @@ Now that you have the URL for the uploaded photo, you can add a photo parameter 
 	
 	h=entry&content=Hello%20world.&photo=https://...&mp-photo-alt=Description%20here.
 
-The alt text parameter is not part of the original Micropub spec, but was instead proposed later through an extension to Micropub. In fact, the spec itself outlines only the initial framework for request and posting basics. Many useful parts of Micropub come from conventions used in the IndieWeb community. If there are at least a few client and server implementations of a proposal, it is considered stable.
+The alt text parameter is not part of the original Micropub spec, but was instead proposed later through an extension to Micropub. In fact, the spec itself outlines only the initial framework for request and posting basics. Many useful parts of Micropub come from conventions used in the IndieWeb community. Once there are a few client and server implementations of a proposal, it is considered stable.
 
 ### More complex posts
 

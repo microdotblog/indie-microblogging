@@ -27,13 +27,13 @@ The goal is for this to feel like a single step, just as if you were posting a t
 
 ---- 
 
-Because Micro.blog is a transitional platform, a bridge between centralized services and more distributed platforms, it needed many parts of a traditional API. Micro.blog’s JSON API allows for signing in, retrieving posts in the timeline, replying to posts, bookmarking posts, and more.
+Because Micro.blog is a bridge between centralized services and more distributed platforms, it needed many parts of a traditional API. Micro.blog’s JSON API allows for signing in, retrieving posts in the timeline, replying to posts, bookmarking posts, and more.
 
 The official Micro.blog apps and third-party apps use the Micro.blog JSON API. Most present a timeline interface, with separate sections for mentions, managing posts, and other features.
 
 ![][image-3] ![][image-4]
 
-Some of the popular third-party apps written specifically for Micro.blog include Gluon, Icro, and Dialog. Those apps and more are covered in the blogging workflow chapter.
+Some of the popular third-party apps written specifically for Micro.blog include Gluon and Icro. Those apps and more are covered in the blogging workflow chapter.
 
 Alternatively, third-party apps can instead use IndieWeb APIs such as Micropub. This will make these apps compatible with Micro.blog, but also potentially compatible with other platforms.
 

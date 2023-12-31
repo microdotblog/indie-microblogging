@@ -70,7 +70,7 @@ After the conference, I sat down with Tantek Çelik and Aaron Parecki to talk ab
 
 **Manton:** And the first one, importantly... The very first principle of the [IndieWeb principles][13] is that. Use your own site, own your own content. Domain names are a big part of that. Really the biggest thing. Unfortunately domain names have not changed since 2010. They haven't changed since 2000. It's interesting that something so important, that "step one" is still really confusing to people. 
 
-**Tantek:** Oh, that's you're going with that. I thought you were going with like, "they're still around". 
+**Tantek:** Oh, that's where you're going with that. I thought you were going with like, "they're still around". 
 
 **Manton:** I'm going with: why aren't they easier? Because a lot of what the IndieWeb does, if you look at [Microformats][14] and [Micropub][15] and all these core parts of the IndieWeb, they're built on HTML and HTTP where we have some control over making things easier and having other standards. 
 
@@ -136,7 +136,7 @@ After the conference, I sat down with Tantek Çelik and Aaron Parecki to talk ab
 
 **Manton:** You start to build like platform-specific... It's different than just building for the web in general where anybody can bring their own site and plug in. With Mastodon specifically, it's based on open standards but it also feels very opaque in a way — how stuff talks to each other. It's a little more difficult to just build a web site and be compatible. 
 
-**Tantek:** It's also levels of barriers to entry. Because that's one thing that myself and I think a bunch of people at the 2010 Social Federated Web Summit we're frustrated with was a lot of the standards being tossed around — every generation has its own standards — were really hard, like Salmon. I tried to read through the spec and understand what it was doing, and I could not wrap my head around enough of it to even start anywhere coding. 
+**Tantek:** It's also levels of barriers to entry. Because that's one thing that myself and I think a bunch of people at the 2010 Social Federated Web Summit we're frustrated with was a lot of the standards being tossed around — every generation has its own standards — were really hard, like Salmon. I tried to read through the spec and understand what it was doing, and I could not wrap my head around enough of it to even start coding. 
 
 **Aaron:** I had the same experience at that event. I even then later, a year ago, tried to revisit the spec because Mastodon was using it. I feel like I should be able to have my web site just be a part of this network. I refuse to make a new Mastodon account and treat it as a POSSE destination because that completely defeats the purpose of what Mastodon itself is even shooting for, which is an actually distributed social experience.
 

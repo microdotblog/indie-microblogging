@@ -12,6 +12,8 @@ I noticed one day that the `Zeppelin.flights` instance that Jason Snell used to 
 
 I think that is common. You sometimes see Mastodon instances simply go away, or people move to a new Mastodon instance, which changes their username. The fediverse feels a little fragile because most Mastodon users are using someone's instance without thinking much about their long-term identity on the web.
 
+Later, as the chaos with Elon’s takeover of Twitter was causing users to move to Mastodon, Jason brought `Zeppelin.flights` back online. More people were ready to use it, and he could jump back into the fediverse with the same domain name. That’s the value of owning your own space.
+
 Mastodon prioritizes a federated network. Micro.blog takes a hybrid approach: distributed where it’s most important, content on your own site at your own domain name, but centralized where we can make it easier to use.
 
 People are _always_ looking for a Twitter alternative. When they think they might have finally found a viable one, they get excited.
@@ -74,11 +76,29 @@ As more Micro.blog users interact with Mastodon users, some of those users will 
 
 There are other options for Mastodon-compatible usernames, but with a focus on blogging. [Pleroma][7] bills itself as a “lightweight” fediverse server. [Microblog.pub][8] is a single-user microblogging server you can run yourself. [Bridgy Fed][9] takes a similar approach to Micro.blog, gluing ActivityPub support into an existing blog.
 
+For WordPress, there’s a plugin to enable ActivityPub on your blog, allowing people to follow your blog from Micro.blog and Mastodon, and hooking into WordPress’s comment system for replies. Matt Mullenweg views ActivityPub as an important enough technology that Automattic hired the plugin’s developer, Matthias Pfefferle, to work on improving the plugin full time.
+
 [In a blog post about the IndieWeb and the fediverse][10], Ben Werdmuller wrote that he was moving away from cross-posting to other services, instead keeping the focus on his own site, now that he can participate in the larger world of Mastodon instances:
 
 > I want my site to connect to the indieweb; to the fediverse; to people who are connecting via RSS; to people who are connecting via email. No more syndication to third parties. My own website sits in the center of my online identity, using open standards to communicate with outside communities.
 
 ActivityPub is now widely deployed and makes a great addition to most blog platforms, as long as there’s a solid foundation first with personal domain names, feeds, and IndieWeb standards.
+
+---- 
+
+Moving more to blog-based solutions for ActivityPub and the fediverse also helps with the separation of content away from platform silos. As we cover more in Part 6, even the most wrong-headed ideas sometimes need their own space on the internet. What they don’t need is to be shouted from the rooftops and echoed among followers in a social network’s algorithmic timeline.
+
+Note that content amplification is not only technical. Substack has tried to walk a difficult line between their clearly expansive free speech beliefs and the need to moderate hate speech.
+
+On one hand, their platform is well-suited to separating what content they will host from what they will promote. Authors can have a blog and email newsletter, largely writing about any crazy ideas they want without getting in too much trouble, as long as it's not featured by Substack. It’s terrible content off hidden in the corner of the platform, not easy to discover.
+
+But because Substack is also facilitating subscription payments for authors, this creates a new tension that does not exist in platforms that don't have a way to monetize content.
+
+Substack co-founder Hamish McKenzie [wrote about their decision to allow Nazis][11] to continue to publish on Substack:
+
+> We believe that supporting individual rights and civil liberties while subjecting ideas to open discourse is the best way to strip bad ideas of their power. We are committed to upholding and protecting freedom of expression, even when it hurts.
+
+Because of the money, this goes beyond just "supporting" open discourse. Substack is effectively helping amplify authors' voices through indirect funding. By allowing them monetize their content, Substack is helping fund it.
 
 [1]:	https://seths.blog/2018/10/the-first-1000-are-the-most-difficult/
 [2]:	https://www.kickstarter.com/projects/manton/indie-microblogging-owning-your-short-form-writing
@@ -88,6 +108,7 @@ ActivityPub is now widely deployed and makes a great addition to most blog platf
 [8]:	https://github.com/tsileo/microblog.pub
 [9]:	https://fed.brid.gy
 [10]:	https://werd.io/2022/the-fediverse-and-the-indieweb
+[11]:	https://substack.com/@hamish/note/c-45811343
 
 [image-1]:	https://book.micro.blog/uploads/2022/1dacc8e099.png
 [image-2]:	https://book.micro.blog/uploads/2022/289471261d.png

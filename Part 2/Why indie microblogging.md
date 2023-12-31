@@ -4,7 +4,7 @@ _“That is why you need to own your little place on the Internet: otherwise you
 
 Across the different types of feeds and APIs there is a guiding principle of openness. We choose standard formats so that it's more likely that our writing and photos will last. We choose open APIs so that many apps can be built, all compatible with each other. These choices mean fewer proprietary formats and less chance for any single company to have too much power over the creation and storage of web content.
 
-There are over 2.8 billion people on Facebook. This is the same number of people in the entirety of China and India combined, the 2 most populous countries on the planet. All of the posts and user profile data flowing through `facebook.com` has given the company great power over what people see and what private data is shared.
+There are over 2.8 billion people on Facebook. This is the same number of people in the entirety of China and India combined, the two most populous countries on the planet. All of the posts and user profile data flowing through `facebook.com` has given the company great power over what people see and what private data is shared.
 
 In the fallout of Cambridge Analytica using personal data from millions of Facebook users, Mark Zuckerberg ended up testifying before Congress. Facebook eventually settled with the Federal Trade Commission for $5 billion in 2019.
 

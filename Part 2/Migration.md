@@ -2,7 +2,9 @@
 
 _“The magician takes the ordinary something and makes it into something extraordinary. But you wouldn’t clap yet, because making something disappear isn’t enough. You have to bring it back.” — The Prestige_
 
-Micro.blog can import from WordPress, Medium, Tumblr, Ghost, and Markdown files. To upload a file from one of those platforms, go to Micro.blog on the web and click Posts → “…” → Import.
+The more we can use open standards, the more we can avoid being locked in to any specific platform. Blogging tools will always have some support for importing and exporting posts.
+
+Micro.blog can import from WordPress, Medium, Tumblr, Ghost, Substack, Write.as, Twitter, and Markdown files. To upload a file from one of those platforms, go to Micro.blog on the web and click Posts → “…” → Import.
 
 When importing, Micro.blog will create new blog posts from the posts in the import file. If there are any `img` references in the HTML for those posts, Micro.blog will also attempt to download those images and store them on Micro.blog. It will then update the HTML to use the new URL for the image on Micro.blog.
 
@@ -14,15 +16,17 @@ If you're moving from a blog system not supported by Micro.blog, you may be able
 
 Some people prefer to use Micro.blog because it's easier to post to, but still want those microblog posts to go back to their main WordPress blog. The [Feed Importer plugin][2] for WordPress by Michael Lichwa will load your microblog's RSS feed, looking for new posts and copying them over to your WordPress blog.
 
-RSS feeds on Micro.blog contain the most recent 25 posts, not all posts. Feed Importer is best suited for ongoing mirroring of posts to WordPress rather than importing all previous posts.
+RSS feeds on Micro.blog contain the most recent posts, not all posts. Feed Importer is best suited for ongoing mirroring of posts to WordPress rather than importing all previous posts.
 
 ---- 
 
-If you are starting a new microblog hosted on Micro.blog in addition to maintaining a full blog outside of Micro.blog, you might want to integrate the microblog posts into your main blog.
+If you are starting a new microblog hosted on Micro.blog in addition to maintaining a full blog outside of Micro.blog, you may want to integrate the microblog posts into your main blog.
 
 You can include your Micro.blog-hosted microblog posts in the sidebar of your main web site with our JavaScript include called Sidebar.js. In your main site's HTML template, add this JavaScript wherever you want to include the microblog posts:
 
 	<script type="text/javascript" src="https://micro.blog/sidebar.js?username=your_username"></script>
+
+Sidebar.js will take your recent microblog posts and insert them directly into your blog, wherever the `<script>` tag is placed. It doesn’t copy the posts — they are still stored on Micro.blog — but to your blog visitors it integrates the posts so they look more like part of the same site.
 
 If you use WordPress, add this JavaScript in a "Text" widget available from the WordPress admin dashboard. Remember to replace `your_username` with your Micro.blog username.
 
